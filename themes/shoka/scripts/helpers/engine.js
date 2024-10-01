@@ -30,6 +30,7 @@ const randomBG = function(count = 1, image_server = null, image_list = []) {
     } else {
       // return 'https://tva'+randomServer+'.sinaimg.cn/'+size+'/'+img
       return 'https://images.weserv.nl/?url=https://raw.githubusercontent.com/slx-world/blog-images/master/'+img
+	  // return 'https://images.weserv.nl/?url=https://gitee.com/slx-world/blog-images/master/'+img
     }
   }
 
