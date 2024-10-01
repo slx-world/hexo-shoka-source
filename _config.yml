@@ -124,13 +124,6 @@ deploy:
   type: git
   repo: https://github.com/slx-world/slx-world.github.io.git
   branch: master
-  
-backup: 
-  type: git
-  theme: shoka
-  repository: 
-    coding: git@e.coding.net:g-xone4790/slx-world/slx-world.github.io.git,backup
-    github: git@github.com:slx-world/slx-world.github.io.git,backup
 
 markdown:
   render: # 渲染器设置

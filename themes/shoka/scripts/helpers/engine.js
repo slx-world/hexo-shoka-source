@@ -25,10 +25,11 @@ const randomBG = function(count = 1, image_server = null, image_list = []) {
   }
 
   var parseImage = function(img, size) {
-    if (img.startsWith('//') || img.startsWith('http')) {
+    if (img.startsWith('//') || img.startsWith('https')) {
       return img
     } else {
-      return 'https://tva'+randomServer+'.sinaimg.cn/'+size+'/'+img
+      // return 'https://tva'+randomServer+'.sinaimg.cn/'+size+'/'+img
+      return 'https://images.weserv.nl/?url=https://gitee.com/slx-world/slx-world.github.io/raw/master/'+img
     }
   }
 
