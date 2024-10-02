@@ -1,5 +1,5 @@
 ---
-title: 图床搭建（GitHub 版）
+title: 图床搭建
 date: 2024-09-20 22:24:36
 description: 使用 github + picgo + typora 搭建个人图床，极力推荐！！！
 sticky: true
@@ -13,13 +13,29 @@ tags:
 ## Git 安装
 略
 ## PicGo 安装
-[PicGo 下载链接](https://github.com/Molunerfinn/PicGo/releases/)
+[PicGo 下载链接](https://github.com/Molunerfinn/PicGo/releases/)：https://github.com/Molunerfinn/PicGo/releases/
+
+:::info
+
+[推荐使用 2.3.1 正式版]{.yellow}
+
+:::
+
+![image-20241001213835429](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241001213835429.png)
 
 ## Typora 安装
-略
+
+[Typora1.9.4 百度网盘](https://pan.baidu.com/s/12qgG7CT4_ygoqd-CDggcLA?pwd=e7mg).{.blue}
+
+[Typora1.9.4 安装教程](https://mp.weixin.qq.com/s/agj_3zHhsuBQsD2tHTQ4Fg).{.blue}
+
+解压后，将 [Crack]{.green} 中的 [winmm.dll]{.yellow} 文件复制粘贴到 Typora 的安装目录即可
+
+![image-20241002200235854](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200235854.png)
+
 # GitHub 设置
 ## 创建仓库
-该仓库用于存放图片
+该仓库用于存放博客图片
 
 ![image-20241002144038707](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002144038707.png)
 
@@ -27,7 +43,7 @@ tags:
 
 点击 [头像]{.green}，来到 [Settings -> Developer Settings -> Personal access tokens]{.green}，然后点击 [Generate new token](https://github.com/settings/personal-access-tokens/new)
 
-![image-20241002144413095](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002144413095.png)
+![image-20241002200555213](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200555213.png)
 
 ## 仓库授权
 
@@ -54,9 +70,11 @@ tags:
 
 ## 图床设置
 
+点击 [GitHub]{.green} 选项，进行 [GitHub 设置]{.green}
+
 - 设定仓库名：用户名/仓库，根据 [2.1]{.red} 的仓库而定
 - 设定分支：根据 [2.1]{.red} 的仓库而定
-- 设定 Token：粘贴上 [2.2]{.red} 的令牌
+- 设定 Token：复制粘贴 [2.2]{.red} 的令牌
 - 设定存储路径：可选
 - 设定自定义域名：https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/用户名/仓库@分支
 
@@ -66,10 +84,20 @@ tags:
 
 # Typora 设置
 
-详情请看 [图床搭建（Gitee 版）](https://slx-world.top/tutorial/blog/gitee-picgo-typora/)，这里不再赘述
+## 设置图像并验证
+
+右上角 [文件 -> 偏好设置 -> 图像]{.green}
+
+![image-20241001225158438](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241001225158438.png)
+
+设置完后，点击 [验证图片上传选项]{.green}
+
+![image-20241002201849398](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002201849398.png)
 
 
 
+:::success
 
+[**至此，个人图床搭建完毕，感谢大家的阅览与支持！！！**]{.rainbow} :kissing_heart::ring::small_airplane:
 
-[**承蒙厚爱，愚文一篇，敬请一览！！！**]{.rainbow}:kissing_heart::kissing_heart::kissing_heart:
+:::
