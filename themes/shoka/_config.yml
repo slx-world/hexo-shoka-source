@@ -8,7 +8,7 @@ open_graph:
   #fb_app_id:
 
 # Assets
-# statics: / #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
+# statics: / # //cdn.jsdelivr.net/gh/username/RepositoryName@latest/
 statics: //cdn.jsdelivr.net/gh/slx-world/slx-world.github.io@latest/
 
 css: css
@@ -127,7 +127,7 @@ sidebar:
   position: left
   # position: right
   # Replace the default avatar image and set the url here.
-  avatar: avatar.jpg
+  avatar: avatar.jpg 
 
 widgets:
   # if true, will show random posts
