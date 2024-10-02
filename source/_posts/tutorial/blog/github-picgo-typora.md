@@ -1,7 +1,7 @@
 ---
 title: 图床搭建（GitHub 版）
 date: 2024-09-20 22:24:36
-description: 使用 GitHub + Picgo + Typora 搭建个人图床，极力推荐！！！
+description: 使用 github + picgo + typora 搭建个人图床，极力推荐！！！
 sticky: true
 categories: 
   - 教程
@@ -66,7 +66,7 @@ tags:
 
 # Typora 设置
 
-详情请看 [图床搭建（Gitee 版）](https://slx-world.top/tutorial/blog/gitee-typora-picgo/)，这里不再赘述
+详情请看 [图床搭建（Gitee 版）](https://slx-world.top/tutorial/blog/gitee-picgo-typora/)，这里不再赘述
 
 
 
