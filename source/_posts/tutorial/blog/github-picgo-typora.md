@@ -29,7 +29,7 @@ tags:
 
 [Typora1.9.4 安装教程](https://mp.weixin.qq.com/s/agj_3zHhsuBQsD2tHTQ4Fg).{.blue}
 
-解压后，将 [Crack]{.green} 中的 [winmm.dll]{.yellow} 文件复制粘贴到 Typora 的安装目录即可
+解压后，将 [Crack]{.red} 中的 [winmm.dll]{.red} 文件复制粘贴到 Typora 的安装目录即可
 
 ![image-20241002200235854](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200235854.png)
 
@@ -41,7 +41,7 @@ tags:
 
 ## 生成令牌
 
-点击 [头像]{.green}，来到 [Settings -> Developer Settings -> Personal access tokens]{.green}，然后点击 [Generate new token](https://github.com/settings/personal-access-tokens/new)
+右上角点击 [头像]{.green}，来到 [Settings -> Developer Settings -> Personal access tokens]{.green}，然后点击 [Generate new token](https://github.com/settings/personal-access-tokens/new)
 
 ![image-20241002200555213](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200555213.png)
 
@@ -86,7 +86,7 @@ tags:
 
 ## 设置图像并验证
 
-右上角 [文件 -> 偏好设置 -> 图像]{.green}
+左上角点击 [文件 -> 偏好设置 -> 图像]{.green}
 
 ![image-20241001225158438](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241001225158438.png)
 
