@@ -1,51 +1,103 @@
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/1.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/2.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/3.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/4.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/5.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/6.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/8.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/9.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/10.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/11.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/12.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/13.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/14.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/15.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/16.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/17.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/18.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/19.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/20.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/21.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/22.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/23.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/24.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/25.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/26.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/27.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/28.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/29.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/30.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/31.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/32.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/33.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/34.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/35.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/36.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/37.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/38.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/39.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/40.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/41.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/42.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/43.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/44.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/45.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/46.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/47.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/48.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/49.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/50.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/51.jpg
-- https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/images/52.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/1.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/2.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/3.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/4.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/5.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/6.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/8.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/9.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/10.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/11.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/12.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/13.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/14.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/15.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/16.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/17.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/18.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/19.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/20.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/21.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/22.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/23.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/24.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/25.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/26.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/27.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/28.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/29.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/30.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/31.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/32.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/33.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/34.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/35.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/36.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/37.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/38.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/39.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/40.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/41.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/42.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/43.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/44.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/45.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/46.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/47.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/48.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/49.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/50.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/51.jpg
+# - https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/52.jpg
+
+- 1.jpg
+- 2.jpg
+- 3.jpg
+- 4.jpg
+- 5.jpg
+- 6.jpg
+- 8.jpg
+- 9.jpg
+- 10.jpg
+- 11.jpg
+- 12.jpg
+- 13.jpg
+- 14.jpg
+- 15.jpg
+- 16.jpg
+- 17.jpg
+- 18.jpg
+- 19.jpg
+- 20.jpg
+- 21.jpg
+- 22.jpg
+- 23.jpg
+- 24.jpg
+- 25.jpg
+- 26.jpg
+- 27.jpg
+- 28.jpg
+- 29.jpg
+- 30.jpg
+- 31.jpg
+- 32.jpg
+- 33.jpg
+- 34.jpg
+- 35.jpg
+- 36.jpg
+- 37.jpg
+- 38.jpg
+- 39.jpg
+- 40.jpg
+- 41.jpg
+- 42.jpg
+- 43.jpg
+- 44.jpg
+- 45.jpg
+- 46.jpg
+- 47.jpg
+- 48.jpg
+- 49.jpg
+- 50.jpg
+- 51.jpg
+- 52.jpg

@@ -13,3 +13,7 @@ tags:
 
 # First Blog
 
+
+
+![image-20241002095308759](https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002095308759.png)
+
