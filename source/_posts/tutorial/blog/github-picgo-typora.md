@@ -29,6 +29,8 @@ tags:
 
 - [++Typora1.9.4 安装教程++{.info}](https://mp.weixin.qq.com/s/agj_3zHhsuBQsD2tHTQ4Fg)
 
+- [++Markdown 官方教程++{.info}](https://markdown.com.cn/intro.html)
+
 解压后，将 [Crack]{.yellow} 中的 [winmm.dll]{.yellow} 文件复制粘贴到 Typora 的安装目录即可
 
 ![image-20241002200235854](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200235854.png)
@@ -86,7 +88,7 @@ tags:
 
 # :snowflake:站点配置
 
-1. 来到 [hexo 目录 \ themes \ shoka \ scripts \ helpers]{.yellow}，修改 [engine.js]{.red} 代码
+1. 来到 [hexo 目录\themes\shoka\scripts\helpers]{.yellow}，修改 [engine.js]{.red} 代码
 
    ```js engine.js 代码
      var parseImage = function(img, size) {
@@ -132,4 +134,4 @@ tags:
 
 
 
-[:heavy_check_mark:success]{.label .success}[**至此，个人图床搭建完毕，感谢大家的阅览与支持**]:point_down::kissing_heart::ring:
+[:heavy_check_mark:success]{.label .success}[**至此，个人图床搭建完毕，感谢大家的品阅与支持**]​{.rainbow​}**:point_down::kissing_heart::ring:**

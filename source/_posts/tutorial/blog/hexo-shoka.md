@@ -12,7 +12,7 @@ valine:
   placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪"
 ---
 
-:yellow_heart:
+
 
 :::primary
 
@@ -32,9 +32,9 @@ valine:
 
 该仓库用来存放博客部署的静态网页文件，如js、css、html等等
 
-- 仓库命名必须是：[用户名.github.io]{.red}
+- 仓库命名必须是：[用户名.github.io]{.yellow}
 
-- 分支：[master]{.red}
+- 分支：[master]{.yellow}
 
 ![image-20241003120123561](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241003120123561.png)
 
@@ -161,7 +161,7 @@ theme: shoka
 
 5. 停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示
 
-   找到 [highlight]{.yellow} 和 [prismjs]{.yellow}，把 [enable]{.yellow} 改成 [false]{.red} 
+   找到 [highlight]{.yellow} 和 [prismjs]{.yellow}，把 [enable]{.red} 改成 [false]{.red} 
 
    ```yaml _config.yml 站点配置文件
    highlight:
@@ -278,7 +278,7 @@ deploy:
 
 2. 不需要修改站点配置文件，直接使用插件默认配置就行
 
-   但是需要修改主题配置文件，找到两处 count，修改为 true
+   但是需要修改主题配置文件，找到两处 [count]{.red}，修改为 [true]{.red}
 
    ```yaml _config.yml 主题配置文件
    # 页尾全站统计
@@ -329,7 +329,7 @@ deploy:
          # - hash of investor1@email.com
    ```
 
-3. tag 标签显示在评论者名字的后面，默认是 [tagMeta.visitor]{.yellow} 对应的值。 在 [tagMeta]{.yellow} 和 [tagColor]{.yellow} 中，除了 [visitor] 这个 key 不能修改外，其他 key 都可以换一换，但需要保证一致性
+3. tag 标签显示在评论者名字的后面，默认是 [tagMeta.visitor]{.yellow} 对应的值。 在 [tagMeta]{.yellow} 和 [tagColor]{.yellow} 中，除了 [visitor]{.red} 这个 key 不能修改外，其他 key 都可以换一换，但需要保证一致性
 
    ```yaml _config.yml 主题配置文件
    tagMeta:
@@ -412,7 +412,7 @@ deploy:
 
 ## :gift_heart:配置域名
 
-1. 在 [hexo 安装目录/source]{.green}，新建 [CNAME]{.red} 文件
+1. 在 [hexo 目录/source]{.green}，新建 [CNAME]{.red} 文件
 
    ![image-20241003154427827](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241003154427827.png)
 
@@ -436,6 +436,6 @@ deploy:
 
 
 
-[:heavy_check_mark:success]{.label .success}[**至此，个人博客搭建完毕:sunglasses::sunglasses::cherry_blossom::cherry_blossom:**]{.rainbow}
+[:heavy_check_mark:success]{.label .success}[**至此，个人博客搭建完毕**]{.rainbow}**:sunglasses::sunglasses::cherry_blossom::cherry_blossom:**
 
-[**愚文一篇，承蒙厚爱:point_down::heart_eyes::sparkling_heart:**]{.rainbow}
+[:heartbeat:heart_beart:info]{.label .info}[**愚文一篇，承蒙厚爱**]{.rainbow}**:point_down::heart_eyes::sparkling_heart:**
