@@ -1,7 +1,7 @@
 ---
 title: 图床搭建
 date: 2024-09-20 22:24:36
-description: 使用 github + picgo + typora 搭建个人图床，极力推荐！！！
+description: 使用 GitHub + PicGo + Typora 搭建个人图床，极力推荐！！！
 sticky: true
 categories: 
   - 教程

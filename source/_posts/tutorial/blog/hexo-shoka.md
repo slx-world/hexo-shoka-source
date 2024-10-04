@@ -2,7 +2,7 @@
 title: 博客搭建
 date: 2024-09-20 22:24:36
 update: 2024-09-23 00:27:36
-description: 采用 hexo + shoka 搭建个人博客
+description: 采用 Hexo + Shoka 搭建个人博客
 sticky: true
 categories: 
   - 教程
@@ -163,7 +163,7 @@ theme: shoka
 
    :::info
 
-   [hexo -v]{.red} [查看 hexo 的版本是否在 v7.0.0 及以上，是的话，采用此做法：将]{.yellow} [syntax_highlighter]{.red} [中的属性值]{.yellow} [highlight.js]{.red} [去掉即可]{.yellow}
+   [hexo -v]{.red} [查看 hexo 的版本是否在 v7.0.0 及以上，是的话，采用此做法：将]{.yellow} [syntax_highlighter]{.red} [中的属性值]{.yellow} [highlight.js]{.red} [去掉即可，详情请看 Hexo 官方文档]{.yellow} [++语法高亮++{.info}](https://hexo.io/zh-cn/docs/syntax-highlight)
    
    :::
    
