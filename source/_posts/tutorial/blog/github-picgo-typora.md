@@ -134,4 +134,4 @@ tags:
 
 
 
-[:heavy_check_mark:success]{.label .success}[**至此，个人图床搭建完毕，感谢大家的品阅与支持**]​{.rainbow​}**:point_down::kissing_heart::ring:**
+[:heavy_check_mark:success]{.label .success}[**至此，个人图床搭建完毕，感谢大家的品阅与支持**]{.rainbow}**:point_down::kissing_heart::ring:**

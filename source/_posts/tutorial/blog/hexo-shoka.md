@@ -438,4 +438,4 @@ deploy:
 
 [:heavy_check_mark:success]{.label .success}[**至此，个人博客搭建完毕**]{.rainbow}**:sunglasses::sunglasses::cherry_blossom::cherry_blossom:**
 
-[:heartbeat:heart_beart:info]{.label .info}[**愚文一篇，承蒙厚爱**]{.rainbow}**:point_down::heart_eyes::sparkling_heart:**
+[:heartbeat:info]{.label .info}[**愚文一篇，承蒙厚爱**]{.rainbow}**:point_down::heart_eyes::sparkling_heart:**
