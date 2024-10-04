@@ -7,12 +7,23 @@ categories:
   - 教程
 tags: 
   - 博客
+valine:
+  placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪"
 ---
 
-# :snowflake:软件安装
-## :heartbeat:Git 安装
+
+
+:::primary
+
+ [++一、博客搭建++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka/) :airplane: [++二、图床搭建++{.info}](https://slx-world.top/tutorial/blog/github-picgo-typora/) :airplane: [++三、备份与持续集成++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-appveyor/)
+
+:::
+
+# :sun_behind_large_cloud:软件安装
+
+## :droplet:Git 安装
 略
-## :heartbeat:PicGo 安装
+## :droplet:PicGo 安装
 [++PicGo 下载链接++{.info}](https://github.com/Molunerfinn/PicGo/releases/)：https://github.com/Molunerfinn/PicGo/releases/
 
 :::info
@@ -23,7 +34,7 @@ tags:
 
 ![image-20241001213835429](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241001213835429.png)
 
-## :heartbeat:Typora 安装
+## :droplet:Typora 安装
 
 - [++Typora1.9.4 百度网盘++{.info}](https://pan.baidu.com/s/12qgG7CT4_ygoqd-CDggcLA?pwd=e7mg)
 
@@ -35,19 +46,19 @@ tags:
 
 ![image-20241002200235854](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200235854.png)
 
-# :snowflake:GitHub 设置
-## :heartbeat:创建仓库
+# :sun_behind_large_cloud:GitHub 设置
+## :droplet:创建仓库
 该仓库用于存放博客图片
 
 ![image-20241002144038707](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002144038707.png)
 
-## :heartbeat:生成令牌
+## :droplet:生成令牌
 
 右上角点击 [头像]{.green}，来到 [Settings -> Developer Settings -> Personal access tokens]{.green}，然后点击 [Generate new token](https://github.com/settings/personal-access-tokens/new)
 
 ![image-20241002200555213](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200555213.png)
 
-## :heartbeat:仓库授权
+## :droplet:仓库授权
 
 1. 选定 [2.1]{.red} 中已创建好的仓库
 
@@ -70,9 +81,9 @@ tags:
 
 :::
 
-# :snowflake:PicGo 设置
+# :sun_behind_large_cloud:PicGo 设置
 
-## :heartbeat:图床设置
+## :droplet:图床设置
 
 点击 [GitHub]{.green} 选项，进行 [GitHub 设置]{.green}
 
@@ -86,7 +97,7 @@ tags:
 
 相关信息配置好后，点击 [确定]{.blue}，并 [设为默认图床]{.green}
 
-# :snowflake:站点配置
+# :sun_behind_large_cloud:站点配置
 
 1. 来到 [hexo 目录\themes\shoka\scripts\helpers]{.yellow}，修改 [engine.js]{.red} 代码
 
@@ -118,9 +129,9 @@ tags:
      }
    ```
 
-# :snowflake:Typora 设置
+# :sun_behind_large_cloud:Typora 设置
 
-## :heartbeat:设置图像并验证
+## :droplet:设置图像并验证
 
 1. 左上角点击 [文件 -> 偏好设置 -> 图像]{.green}
 

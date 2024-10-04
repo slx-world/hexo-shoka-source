@@ -1,6 +1,6 @@
 ---
-title: 博客搭建
-date: 2024-09-20 22:24:36
+title: 一、博客搭建
+date: 2024-09-19 22:24:36
 update: 2024-09-23 00:27:36
 description: 采用 Hexo + Shoka 搭建个人博客
 sticky: true
@@ -16,7 +16,7 @@ valine:
 
 :::primary
 
-[++1. 图床搭建++{.info}](https://slx-world.top/tutorial/blog/github-picgo-typora/) :rainbow_flag: [++2. 备份与持续集成++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-appveyor/)
+ [++一、博客搭建++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka/) :airplane: [++二、图床搭建++{.info}](https://slx-world.top/tutorial/blog/github-picgo-typora/) :airplane: [++三、备份与持续集成++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-appveyor/)
 
 :::
 
@@ -41,14 +41,15 @@ valine:
 # :cherry_blossom:软件安装
 
 ## :gift_heart:Git 安装
-略
+[略]{.blue}
+
 ## :gift_heart:Nodejs 安装
 :point_right: [++Nodejs 安装教程++{.info}](https://blog.csdn.net/Nicolecocol/article/details/136788200?fromshare=blogdetail&sharetype=blogdetail&sharerId=136788200&sharerefer=PC&sharesource=&sharefrom=from_link)
 
 ## :gift_heart:Hexo 安装
 
 新建目录，不必与 [1.2]{.red} 的仓库名一致，然后进入该目录，在 [cmd]{.yellow} 命令行窗口中，执行以下命令：
-```bash cmd命令行窗口 mark:1
+```bash cmd 命令行窗口
 npm install hexo-cli -g
 ```
 
@@ -60,7 +61,7 @@ npm install hexo-cli -g
 
 2. 在 hexo 安装目录中，执行以下 [git]{.yellow} 命令：
 
-   ```bash git命令行窗口 mark:1
+   ```bash git 命令行窗口
    git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
    ```
 
@@ -70,7 +71,7 @@ npm install hexo-cli -g
 
 修改站点配置文件 [_config.yml]{.yellow}
 
-```yaml _config.yml站点配置文件 mark:1
+```yaml _config.yml 站点配置文件
 theme: shoka
 ```
 
@@ -88,19 +89,19 @@ theme: shoka
 
 1. 卸载默认的 [hexo-renderer-marked]{.yellow}，以及 [其他 markdown 文件渲染器]{.yellow}
 
-   ```bash cmd命令行窗口 mark:1
+   ```bash cmd 命令行窗口
    npm un hexo-renderer-marked --save
    ```
 
 2. 安装 [hexo-renderer-multi-markdown-it]{.yellow}，用于 md 文件渲染器，压缩 css/js/html
 
-   ```bash cmd命令行窗口 mark:1
+   ```bash cmd 命令行窗口
    npm i hexo-renderer-multi-markdown-it --save
    ```
 
 3. 加入 [markdown]{.yellow} 配置，用来渲染 md 文件
 
-   ```yaml _config.yml站点配置文件
+   ```yaml _config.yml 站点配置文件
    markdown:
      render: # 渲染器设置
        html: false # 过滤 HTML 标签
@@ -137,7 +138,7 @@ theme: shoka
 
 4. 加入 [minify]{.yellow} 配置，压缩 css/js/html
 
-   ```yaml _config.yml站点配置文件
+   ```yaml _config.yml 站点配置文件
    minify:
      html:
        enable: true
@@ -163,7 +164,7 @@ theme: shoka
 
    :::info
 
-   [hexo -v]{.red} [查看 hexo 的版本是否在 v7.0.0 及以上，是的话，采用此做法：将]{.yellow} [syntax_highlighter]{.red} [中的属性值]{.yellow} [highlight.js]{.red} [去掉即可，详情请看 Hexo 官方文档]{.yellow} [++语法高亮++{.info}](https://hexo.io/zh-cn/docs/syntax-highlight)
+   [hexo -v]{.red} [查看 hexo 的版本是否在 v7.0.0 及以上，是的话，采用此做法：将]{.yellow} [syntax_highlighter]{.red} [中的属性值]{.yellow} [highlight.js]{.red} [去掉即可，详情请看 Hexo 官方文档]{.yellow} :point_right: [++语法高亮++{.info}](https://hexo.io/zh-cn/docs/syntax-highlight)
    
    :::
    
@@ -179,7 +180,7 @@ theme: shoka
 
 2. 加入有关配置：
 
-   ```yaml _config.yml站点配置文件
+   ```yaml _config.yml 站点配置文件
    autoprefixer:
      exclude:
        - '*.min.css'
@@ -214,7 +215,7 @@ theme: shoka
 
 2. 加入有关配置：
 
-   ```yaml _config.yml站点配置文件
+   ```yaml _config.yml 站点配置文件
    feed:
        limit: 20
        order_by: "-date"
@@ -238,13 +239,13 @@ theme: shoka
 
 1. 推荐安装 [hexo-filter-nofollow]{.yellow}，用于优化 SEO
 
-   ```bash cmd命令行窗口 mark:1
+   ```bash cmd 命令行窗口
    npm install hexo-filter-nofollow --save
    ```
 
 2. 加入有关配置：
 
-   ```yaml _config.yml站点配置文件
+   ```yaml _config.yml 站点配置文件
    nofollow:
      enable: true #是否启用
      field: site #site全站，post仅文章
@@ -259,7 +260,7 @@ theme: shoka
 
 配置好 [1.2]{.red} 中的仓库信息
 
-```yaml _config.yml站点配置文件 mark:2-4
+```yaml _config.yml 站点配置文件 mark:2-4
 deploy:
   type:  #部署方式
   repo:  #仓库地址，记得与 1.2 中的仓库保持一致！！！
@@ -282,7 +283,7 @@ deploy:
 
    但是需要修改主题配置文件，找到两处 [count]{.red}，修改为 [true]{.red}
 
-   ```yaml _config.yml主题配置文件
+   ```yaml _config.yml 主题配置文件
    # 页尾全站统计
    footer:
      since: 2010
@@ -299,7 +300,7 @@ deploy:
 
 2. 加入有关配置：
 
-   ```yaml _config.yml主题配置文件 mark:2,3
+   ```yaml _config.yml 主题配置文件 mark:2,3
    valine:
      appId: #Your_appId
      appKey: #Your_appkey
@@ -370,7 +371,7 @@ deploy:
 
 1. 上述工作完成后，我们就可以进行测试了
 
-   ```bash cmd命令行窗口 mark:1
+   ```bash cmd 命令行窗口
    hexo s
    ```
 
@@ -384,13 +385,13 @@ deploy:
 
 1. 安装 [hexo-deployer-git]{.yellow} 自动部署发布工具
 
-   ```bash cmd命令行窗口 mark:1
+   ```bash cmd 命令行窗口
    npm install hexo-deployer-git --save
    ```
 
 2. 测试没问题后，将生成的静态网页文件发布到 [Github pages]{.yellow} 中
 
-   ```bash cmd命令行窗口 mark:1
+   ```bash cmd 命令行窗口
    hexo cl && hexo g && hexo d
    ```
 
@@ -429,15 +430,5 @@ deploy:
 4. 最后，重新部署即可！！！
 
 
-
-:::primary
-
-[++1. 图床搭建++{.info}](https://slx-world.top/tutorial/blog/github-picgo-typora/) :rainbow_flag: [++2. 备份与持续集成++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-appveyor/)
-
-:::
-
-
-
-[:heavy_check_mark:success]{.label .success}[**至此，个人博客搭建完毕**]{.rainbow}**:sunglasses::sunglasses::cherry_blossom::cherry_blossom:**
 
 [:heartbeat:info]{.label .info}[**愚文一篇，承蒙厚爱**]{.rainbow}**:point_down::heart_eyes::sparkling_heart:**
