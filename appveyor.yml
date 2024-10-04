@@ -7,10 +7,10 @@ install:
   - npm --version
   - npm install
   - npm install hexo-cli -g
-  - npm uninstall hexo-renderer-marked --save
-  - npm install hexo-abbrlink --save
-  - npm install hexo-renderer-multi-markdown-it hexo-autoprefixer hexo-algoliasearch hexo-symbols-count-time hexo-feed --save
-  - npm install hexo-filter-nofollow --save
+  - hexo --version
+  - npm un hexo-renderer-marked --save
+  - npm i hexo-renderer-markdown-it-plus hexo-renderer-multi-markdown-it markdown-it-prism hexo-autoprefixer hexo-algoliasearch hexo-symbols-count-time hexo-feed hexo-filter-nofollow --save
+  - npm list
 build_script:
   - hexo generate
   - hexo algolia

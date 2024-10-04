@@ -90,7 +90,7 @@ tags:
 
 1. 来到 [hexo 目录\themes\shoka\scripts\helpers]{.yellow}，修改 [engine.js]{.red} 代码
 
-   ```js engine.js 代码
+   ```js engine.js代码
      var parseImage = function(img, size) {
        if (img.startsWith('//') || img.startsWith('http')) {
          return img
@@ -106,7 +106,7 @@ tags:
 
    例如，我的配置是这样的：
 
-   ```js engine.js 代码
+   ```js engine.js代码
      var parseImage = function(img, size) {
        if (img.startsWith('//') || img.startsWith('http')) {
          return img
