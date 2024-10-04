@@ -27,8 +27,6 @@ valine:
 
 :::
 
-
-
 # :high_brightness:持续集成配置
 
 ## :wilted_flower:登录 AppVeyor
@@ -59,7 +57,7 @@ valine:
 
    ![image-20241005004031868](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241005004031868.png)
 
-3. 在 Hexo 目录中创建 [appveyor.yml]{.yellow} 构建文件，并将密文配置上去
+3. 在 Hexo 目录中创建并编写 [appveyor.yml]{.yellow} 构建脚本，并将密文配置上去
 
    ![image-20241005005145834](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241005005145834.png)
 
@@ -111,13 +109,13 @@ valine:
 
 1. 需要备份的文件有：
 
-   - [source 目录的所有文件]{.yellow}
-   - [scaffolds 目录的所有文件]{.yellow}
-   - [themes 目录的所有文件]{.yellow}
-   - [_config.landscape.yml]{.red} [文件]{.yellow}
-   - [_config.yml]{.red} [文件]{.yellow}
-   - [appveyor.yml]{.red} [文件]{.yellow}
-   - [package.json]{.red} [文件]{.yellow}
+   - [source]{.yellow} 目录的所有文件
+   - [scaffolds]{.yellow} 目录的所有文件
+   - [themes]{.yellow} 目录的所有文件
+   - [_config.landscape.yml]{.yellow} 文件
+   - [_config.yml]{.yellow} 文件
+   - [appveyor.yml]{.yellow} 文件
+   - [package.json]{.yellow} 文件
 
 2. 编辑 [.ignore]{.yellow} 文件，添加不需要备份的文件
 
@@ -149,9 +147,13 @@ valine:
 
 ![image-20241005014140785](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241005014140785.png)
 
-可以来到 [站点仓库]{.yellow} 查看最新提交记录
+可以来到 [站点仓库]{.yellow} 查看最新的提交记录
 
 ![image-20241005014532714](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241005014532714.png)
+
+
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 图床搭建
+title: 二、图床搭建
 date: 2024-09-20 22:24:36
 description: 使用 GitHub + PicGo + Typora 搭建个人图床，极力推荐！！！
 sticky: true
@@ -19,11 +19,11 @@ valine:
 
 :::
 
-# :sun_behind_large_cloud:软件安装
+# :ribbon:软件安装
 
-## :droplet:Git 安装
+## :heartpulse:Git 安装
 略
-## :droplet:PicGo 安装
+## :heartpulse:PicGo 安装
 [++PicGo 下载链接++{.info}](https://github.com/Molunerfinn/PicGo/releases/)：https://github.com/Molunerfinn/PicGo/releases/
 
 :::info
@@ -34,7 +34,7 @@ valine:
 
 ![image-20241001213835429](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241001213835429.png)
 
-## :droplet:Typora 安装
+## :heartpulse:Typora 安装
 
 - [++Typora1.9.4 百度网盘++{.info}](https://pan.baidu.com/s/12qgG7CT4_ygoqd-CDggcLA?pwd=e7mg)
 
@@ -46,19 +46,19 @@ valine:
 
 ![image-20241002200235854](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200235854.png)
 
-# :sun_behind_large_cloud:GitHub 设置
-## :droplet:创建仓库
+# :ribbon:GitHub 设置
+## :heartpulse:创建仓库
 该仓库用于存放博客图片
 
 ![image-20241002144038707](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002144038707.png)
 
-## :droplet:生成令牌
+## :heartpulse:生成令牌
 
 右上角点击 [头像]{.green}，来到 [Settings -> Developer Settings -> Personal access tokens]{.green}，然后点击 [Generate new token](https://github.com/settings/personal-access-tokens/new)
 
 ![image-20241002200555213](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002200555213.png)
 
-## :droplet:仓库授权
+## :heartpulse:仓库授权
 
 1. 选定 [2.1]{.red} 中已创建好的仓库
 
@@ -81,9 +81,9 @@ valine:
 
 :::
 
-# :sun_behind_large_cloud:PicGo 设置
+# :ribbon:PicGo 设置
 
-## :droplet:图床设置
+## :heartpulse:图床设置
 
 点击 [GitHub]{.green} 选项，进行 [GitHub 设置]{.green}
 
@@ -97,11 +97,11 @@ valine:
 
 相关信息配置好后，点击 [确定]{.blue}，并 [设为默认图床]{.green}
 
-# :sun_behind_large_cloud:站点配置
+# :ribbon:站点配置
 
 1. 来到 [hexo 目录\themes\shoka\scripts\helpers]{.yellow}，修改 [engine.js]{.red} 代码
 
-   ```js engine.js代码
+   ```js engine.js 代码
      var parseImage = function(img, size) {
        if (img.startsWith('//') || img.startsWith('http')) {
          return img
@@ -117,7 +117,7 @@ valine:
 
    例如，我的配置是这样的：
 
-   ```js engine.js代码
+   ```js engine.js 代码
      var parseImage = function(img, size) {
        if (img.startsWith('//') || img.startsWith('http')) {
          return img
@@ -129,9 +129,9 @@ valine:
      }
    ```
 
-# :sun_behind_large_cloud:Typora 设置
+# :ribbon:Typora 设置
 
-## :droplet:设置图像并验证
+## :heartpulse:设置图像并验证
 
 1. 左上角点击 [文件 -> 偏好设置 -> 图像]{.green}
 
@@ -142,6 +142,10 @@ valine:
 2. 设置完后，点击 [验证图片上传选项]{.green}
 
    ![image-20241002201849398](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241002201849398.png)
+
+
+
+
 
 
 
