@@ -296,7 +296,7 @@ deploy:
 
 ## :gift_heart:评论配置
 
-1. [++获取 AppID 和 AppKey++{.info}](https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96AppID%E5%92%8CAppKey)
+1. :point_right: [++获取 AppID 和 AppKey++{.info}](https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96AppID%E5%92%8CAppKey)
 
 2. 加入有关配置：
 
