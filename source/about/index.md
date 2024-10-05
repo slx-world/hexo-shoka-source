@@ -15,7 +15,7 @@ date: 2024-09-21 10:28:31
 
 
 
-[石昊：]{.yellow}**:house_with_garden:**[**漫天火桑花落尽，伊人已去。动乱起，金戈铁马，天下何处为家。**]{.rainbow}**:house_with_garden:**
+[石昊：]{.yellow}**:house_with_garden:**[**“漫天火桑花落尽，伊人已去。动乱起，金戈铁马，天下何处为家。”**]{.rainbow}**:house_with_garden:**
 
 
 
@@ -35,15 +35,18 @@ date: 2024-09-21 10:28:31
 
 
 
-![shihao](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/shihao.jpg)
+
+{% media audio %}
+- https://music.163.com/#/song?id=404465743
+- https://music.163.com/#/song?id=2630737640
+- https://music.163.com/#/song?id=2612704219
+{% endmedia %}
 
 
 
 ![huolinger1](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/huolinger1.jpg)
 
 
-
-![huolinger](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/huolinger.png)
 
 
 

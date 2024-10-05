@@ -113,7 +113,7 @@ social:
   #zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
   #music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
   weibo: https://weibo.com/u/5973054487 || weibo || "#ea716e"
-  #about: https://about.me/yourname || address-card || "#3b5998"
+  about: https://about.me/yourname || address-card || "#3b5998"
   email: mailto:slx9920@outlook.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -217,42 +217,24 @@ valine:
 
 # bgm
 audio:
-  - title: 列表1
-    list: 
-      - https://music.163.com/#/playlist?id=404465743
-      - https://music.163.com/#/playlist?id=2612704219
-      - https://music.163.com/#/playlist?id=5238992
-      - https://music.163.com/#/playlist?id=2113235545
-      - https://music.163.com/#/playlist?id=512640295
-      - https://music.163.com/#/playlist?id=1898900426
-      - https://music.163.com/#/playlist?id=1967133647
-      - https://music.163.com/#/playlist?id=1904309240
-      - https://music.163.com/#/playlist?id=569323241
-      - https://music.163.com/#/playlist?id=863046037
-      - https://music.163.com/#/playlist?id=2140943587
-  - title: 列表2
-    list:  
-      - https://music.163.com/#/playlist?id=1822564690
-      - https://music.163.com/#/playlist?id=2065265120
-      - https://music.163.com/#/playlist?id=406730368
-      - https://music.163.com/#/playlist?id=2613724903
-      - https://music.163.com/#/playlist?id=1887439185
-      - https://music.163.com/#/playlist?id=2129799497
-      - https://music.163.com/#/playlist?id=1831820778
-      - https://music.163.com/#/playlist?id=2621754574
-      - https://music.163.com/#/playlist?id=1403318151
-      - https://music.163.com/#/playlist?id=2149612361
-      - https://music.163.com/#/playlist?id=2145086579
-      - https://music.163.com/#/playlist?id=2093250080
-
-  # - title: 列表1
-  #   list:
-  #    - https://music.163.com/#/playlist?id=2943811283
-  #    - https://music.163.com/#/playlist?id=2297706586
-  # - title: 列表2
-  #   list:
-  #    - https://music.163.com/#/playlist?id=2031842656
-
+  - title: 完美世界
+    list:
+     - https://music.163.com/#/song?id=404465743
+     - https://music.163.com/#/song?id=2630737640
+     - https://music.163.com/#/song?id=2612704219
+  - title: 爱听爱唱
+    list:
+     - https://music.163.com/#/song?id=512640295
+     - https://music.163.com/#/song?id=2151680078
+     - https://music.163.com/#/song?id=2147424227
+     - https://music.163.com/#/song?id=406730368
+     - https://music.163.com/#/song?id=1403318151
+     - https://music.163.com/#/song?id=1361558668
+     - https://music.163.com/#/song?id=2070614130
+     - https://music.163.com/#/song?id=2613724903
+     - https://music.163.com/#/song?id=1887439185
+     - https://music.163.com/#/song?id=1828583799
+    
 # random image api
 image_server: # "https://acg.xydwz.cn/api/api.php"
 
