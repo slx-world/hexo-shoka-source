@@ -9,7 +9,7 @@ install:
   - npm install hexo-cli -g
   - hexo --version
   - npm un hexo-renderer-marked --save
-  - npm i hexo-renderer-markdown-it-plus hexo-renderer-multi-markdown-it markdown-it-prism hexo-autoprefixer hexo-algoliasearch hexo-symbols-count-time hexo-feed hexo-filter-nofollow --save
+  - npm i hexo-renderer-markdown-it-plus hexo-renderer-multi-markdown-it markdown-it-prism hexo-autoprefixer hexo-algoliasearch hexo-symbols-count-time hexo-feed hexo-tag-media hexo-filter-nofollow --save
   - npm list
 build_script:
   - hexo generate

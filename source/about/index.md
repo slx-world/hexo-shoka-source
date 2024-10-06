@@ -3,11 +3,11 @@ title: 石昊 & 火灵儿
 date: 2024-09-21 10:28:31
 ---
 
-**:sparkles:**[**仙帝一击，谁与相抗，亿万血雨，化入亿万时空，你自己能知道，哪个才是本源真我吗？**]{.rainbow}
+谛听兽：**:sparkles:**[**仙帝一击，谁与相抗，亿万血雨，化入亿万时空，你自己能知道，哪个才是本源真我吗？**]{.rainbow}**:sparkles:**
 
 
 
-[石昊：]{.yellow}**:fireworks:**[**”等我回来，带你看尽世间璀璨！“**]{.rainbow}**:fireworks:**
+[石昊：]{.yellow}**:fireworks:**[**”等我回来，带你看尽世间璀璨，岁月更迭，世间绚烂。“**]{.rainbow}**:fireworks:**
 
 
 
@@ -15,7 +15,19 @@ date: 2024-09-21 10:28:31
 
 
 
+[石昊：]{.yellow}**:two_hearts:**[**“我会改变一切，寻到所有，从轮回中走出。”**]{.rainbow}**:two_hearts:**
+
+
+
+[石昊：]{.yellow}**:two_hearts:**[**“不要放弃，抓住我，我说过不会让你有事。”**]{.rainbow}**:two_hearts:**
+
+
+
 [石昊：]{.yellow}**:house_with_garden:**[**“漫天火桑花落尽，伊人已去。动乱起，金戈铁马，天下何处为家。”**]{.rainbow}**:house_with_garden:**
+
+
+
+[火灵儿：]{.red}**:broken_heart:**[**“你还活着？我听到你迎战七神，最后陨落，我……我无法接受。”**]{.rainbow}**:broken_heart:**
 
 
 
@@ -35,12 +47,22 @@ date: 2024-09-21 10:28:31
 
 
 
+[火灵儿：]{.red}**:revolving_hearts:**[**“我不会让你有事的，灵儿会保护你。”**]{.rainbow}**:revolving_hearts:**
+
+
+
 
 {% media audio %}
 - https://music.163.com/#/song?id=404465743
 - https://music.163.com/#/song?id=2630737640
 - https://music.163.com/#/song?id=2612704219
 {% endmedia %}
+
+
+{% media video %}
+- name: "石昊 & 火灵儿"
+  url: https://v.douyin.com/iBfX8RxL/
+  {% endmedia %}
 
 
 
