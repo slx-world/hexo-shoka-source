@@ -60,9 +60,12 @@ date: 2024-09-21 10:28:31
 
 
 {% media video %}
+- name: "火灵儿"
+  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/huolinger.mp4
 - name: "石昊 & 火灵儿"
-  url: https://v.douyin.com/iBfX8RxL/
+  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/shihao-huolinger.mp4
   {% endmedia %}
+
 
 
 
