@@ -3,7 +3,8 @@ title: 实用网址
 date: 2024-09-21 22:55:13
 ---
 
-# 博客相关
+
+# :sparkles:博客相关
 
 {% links %}
 - site: Hexo
@@ -38,7 +39,7 @@ date: 2024-09-21 22:55:13
   color: "#19a4ea"
   {% endlinks %}
 
-# IT相关
+# :cherry_blossom:IT 相关
 {% links %}
 - site: 刷题仓库
   url: https://doocs.github.io/leetcode/
@@ -125,4 +126,40 @@ date: 2024-09-21 22:55:13
   color: "#991d13"
   {% endlinks %}
 
-# 影视影院
+# :cherries:VPN 相关
+
+{% links %}
+- site: 魔戒.net
+  url: https://mojie.app/register?aff=M0uajYTi
+  desc: 信号、速度还行，推荐
+  image: 
+  color: "#9d6343"
+
+- site: 雷霆
+  url: https://leiting.uniss.me/invite/XnmpKG46
+  desc: 信号、速度还可以，推荐
+  image: 
+  color: "#dd4ac0"
+
+- site: 雨燕云
+  url: https://yuyan.lol/#/register?code=4CQdaVtv
+  desc: 也还可以
+  image: 
+  color: "#da0dbb"
+  
+- site: 泡泡
+  url: https://1007.ppg01-8lnssk1c.top/#/register?code=444ookRZ
+  desc: 有点草率
+  image: 
+  color: "#39d6e6"
+
+  {% endlinks %}
+
+# :izakaya_lantern:影视影院
+
+
+
+
+
+
+
