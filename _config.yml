@@ -75,6 +75,8 @@ category_map:
   测试: test
   教程: tutorial
   算法: algorithm
+  运维开发: devops
+  面试题: interview
   
 tag_map: 
   Java: java
@@ -87,7 +89,7 @@ tag_map:
   Spark: spark
   Flink: flink
   博客: blog
-  面试: interview
+  
   
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

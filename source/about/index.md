@@ -3,7 +3,7 @@ title: 石昊 & 火灵儿
 date: 2024-09-21 10:28:31
 ---
 
-谛听兽：**:sparkles:**[**仙帝一击，谁与相抗，亿万血雨，化入亿万时空，你自己能知道，哪个才是本源真我吗？**]{.rainbow}**:sparkles:**
+[谛听兽：]{.green}**:sparkles:**[**仙帝一击，谁与相抗，亿万血雨，化入亿万时空，你自己能知道，哪个才是本源真我吗？**]{.rainbow}**:sparkles:**
 
 
 
@@ -24,6 +24,10 @@ date: 2024-09-21 10:28:31
 
 
 [石昊：]{.yellow}**:house_with_garden:**[**“漫天火桑花落尽，伊人已去。动乱起，金戈铁马，天下何处为家。”**]{.rainbow}**:house_with_garden:**
+
+
+
+[石昊：]{.yellow}**:house_with_garden:**[**“别哭了，我带你回家！”**]{.rainbow}**:house_with_garden:**
 
 
 
@@ -58,12 +62,17 @@ date: 2024-09-21 10:28:31
 - https://music.163.com/#/song?id=2612704219
 {% endmedia %}
 
-
 {% media video %}
+- name: "坏胚 & 女胖子"
+  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/huaipei-nvpangzi.mp4
+- name: "火桑林"
+  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/huosanglin.mp4
 - name: "石昊 & 火灵儿"
   url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/shihao-huolinger.mp4
-- name: "火灵儿"
-  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/huolinger.mp4
+- name: "石昊 & 灵儿"
+  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/shihao-linger.mp4
+- name: "灵儿"
+  url: https://slx-world.oss-cn-shenzhen.aliyuncs.com/blog/videos/linger.mp4
   {% endmedia %}
 
 
