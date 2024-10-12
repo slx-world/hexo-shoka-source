@@ -1,15 +1,16 @@
 ---
-title: Docker 命令
+title: Docker 学习笔记
 date: 2024/10/09
+description: Docker 学习笔记
 categories: 
-  - []
+  - [后端, 运维开发]
 tags: 
-  - 
+  - Docker
 ---
 
 # :sailboat:Docker 命令
 
-## :dolphin:Docker 进程相关命令
+## :dolphin:进程相关
 
 ```bash Docker 进程相关命令
 # 启动 Docker 服务
@@ -28,7 +29,7 @@ systemctl status docker
 systemctl enable docker
 ```
 
-## :dolphin:Docker 镜像相关命令
+## :dolphin:镜像相关
 
 ```bash Docker 镜像相关命令
 # 查看镜像：查看本地所有镜像
@@ -47,7 +48,7 @@ docker rmi 镜像id # 删除指定本地镜像
 docker rmi 'docker images -q' # 删除本地所有镜像
 ```
 
-## :dolphin:Docker 容器相关命令
+## :dolphin:容器相关
 
 ```bash
 # 查看容器
@@ -60,7 +61,7 @@ docker run 参数
 
 ```
 
-## :dolphin:Docker 容器相关命令
+## :dolphin:容器相关
 
 ```bash Docker 容器相关命令
 # 进入容器
@@ -79,7 +80,7 @@ docker rm 容器名称
 docker inspect 容器名称
 ```
 
-# :boat:Docker 容器的数据卷
+# :boat:Docker 数据卷
 
 ## :dolphin:概念
 
