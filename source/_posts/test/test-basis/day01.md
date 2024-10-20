@@ -1,7 +1,7 @@
 ---
 title: 测试基础 Day01
 date: 2024/10/10
-description: 测试基础学习笔记
+description: 测试基础笔记
 categories: 
   - 测试
 tags: 
@@ -14,7 +14,7 @@ tags:
 
 [软件测试]{.rainbow}：使用[技术]{.yellow}手段[验证]{.yellow}软件是否满足使用需求
 
-软件测试[目的]{.yellow}：减少软件[缺陷]{.yellow}（bug），保障软件质量！
+软件测试[目的]{.yellow}：减少软件[缺陷]{.yellow}（bug），保障软件质量
 
 # :hibiscus:测试技能
 
@@ -65,7 +65,7 @@ tags:
 
 # :hibiscus:测试流程
 
-1. [需求评审]{.rainbow}：确保各部门理解一致
+1. [需求评审]{.rainbow}：确保各部门需求理解一致
 
 **:arrow_down:**
 

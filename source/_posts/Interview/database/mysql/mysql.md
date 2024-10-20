@@ -3,7 +3,7 @@ title: MySQL 面试题
 date: 2024/10/10
 description: 
 categories: 
-  - 面试题
+  - 面经
 tags: 
   - MySQL
 ---
