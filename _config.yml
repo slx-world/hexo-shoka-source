@@ -76,7 +76,7 @@ category_map:
   教程: tutorial
   算法: algorithm
   运维开发: devops
-  面经: interview
+  面试题: interview
   
 tag_map: 
   Java: java
@@ -89,6 +89,7 @@ tag_map:
   Spark: spark
   Flink: flink
   博客: blog
+  测试基础: test-basis
   
   
 # Metadata elements
