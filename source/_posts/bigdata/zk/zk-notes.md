@@ -1,7 +1,7 @@
 ---
-title: Zookeeper 学习笔记
+title: Zookeeper 笔记
 date: 2024/10/12
-description: Zookeeper 学习笔记
+description: Zookeeper 笔记
 categories: 
   - 大数据
 tags: 

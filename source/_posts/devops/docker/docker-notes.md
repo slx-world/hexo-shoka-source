@@ -1,7 +1,7 @@
 ---
-title: Docker 学习笔记
+title: Docker 笔记
 date: 2024/10/09
-description: Docker 学习笔记
+description: Docker 笔记
 categories: 
   - [Backend, DevOps]
 tags: 

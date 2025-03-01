@@ -202,9 +202,9 @@ autoprefixer:
     - '*.min.css'
 
 algolia:
-  appId: Y4XEWHI3E1
-  apiKey: 98927da4b3ab49db13050946fc5fd507
-  adminApiKey: 63404a6e246cd47db35655cf15475431
+  appId: T06ILD2B6Y
+  apiKey: 9490c601ff9709275a5bc50929b61790
+  adminApiKey: 9c628d3d582a7b8356beafe60472ecf7
   chunkSize: 5000
   indexName: slx-world
   fields:
