@@ -4,9 +4,9 @@ date: 2024-09-20 22:24:36
 description: 使用 GitHub + PicGo + Typora 搭建个人图床，极力推荐！！！
 sticky: true
 categories: 
-  - 教程
+  - Tutorial
 tags: 
-  - 博客
+  - Blog
 valine:
   placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪"
 ---

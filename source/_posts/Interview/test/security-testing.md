@@ -3,9 +3,9 @@ title: 安全测试
 date: 2024/10/11
 description: 安全测试面试题
 categories: 
-  - 面试题
+  - Interview
 tags: 
-  - 面试题
+  - Interview
 ---
 
 # :question:HTTPS 与 HTTP 的区别？ 

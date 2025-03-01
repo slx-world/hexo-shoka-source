@@ -3,7 +3,7 @@ title: Maven 高级
 date: 2024-10-02
 description: Maven 笔记
 categories: 
-  - [后端, 运维开发]
+  - [Backend, DevOps]
 tags: 
   - Maven
 ---

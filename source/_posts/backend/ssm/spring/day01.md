@@ -3,7 +3,7 @@ title: Spring_day01
 date: 2024/10/11
 description: Spring 学习笔记
 categories: 
-  - [后端, 框架]
+  - [Backend, Framework]
 tags: 
   - Spring
 ---

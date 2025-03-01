@@ -3,9 +3,9 @@ title: 测试基础 Day04
 date: 2024/10/13
 description: 测试基础笔记
 categories: 
-  - 测试
+  - Test
 tags: 
-  - 测试基础
+  - Test-Basis
 ---
 
 # :hibiscus:HTML 介绍

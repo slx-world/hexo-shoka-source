@@ -3,7 +3,7 @@ title: Docker 学习笔记
 date: 2024/10/09
 description: Docker 学习笔记
 categories: 
-  - [后端, 运维开发]
+  - [Backend, DevOps]
 tags: 
   - Docker
 ---

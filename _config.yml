@@ -67,30 +67,46 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map: 
-  后端: backend
-  框架: framework
-  中间件: middleware
-  数据库: database
-  大数据: bigdata
-  测试: test
-  教程: tutorial
-  算法: algorithm
-  运维开发: devops
-  面试题: interview
+  Tutorial: tutorial
+  Backend: backend
+  BigData: bigdata
+  DevOps: devops
+  Test: test
+  Framework: framework
+  Database: database
+  Interview: interview
+  Project: project
   
 tag_map: 
   Java: java
   Python: python
-  Spring: spring
-  SpringCloud: springcloud
+  Linux: linux
+  Git: git
+  Maven: maven
+  Docker: docker
+  Kubernates: k8s
   MySQL: mysql
+  Redis: redis
+  Spring: spring
+  SpringMVC: springmvc
+  SpringBoot: springboot
+  Mybatis: mybatis
+  MybatisPlus: mybatisplus
+  SpringCloud: springcloud
   MQ: mq
+  JVM: jvm
+  JUC: juc
+  SQL: sql
   Hadoop: hadoop
+  Hive: hive
+  Zookeeper: zk
   Spark: spark
   Flink: flink
-  博客: blog
-  测试基础: test-basis
-  
+  Blog: blog
+  Test-Basis: test-basis
+  Data-Structure: data-structure
+  Algorithm: algorithm
+  Interview: interview
   
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
