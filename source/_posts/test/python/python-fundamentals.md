@@ -3,7 +3,7 @@ title: Python 基础
 date: 2024/10/11
 description: Python 基础
 categories: 
-  - [Python, 测试]
+  - Python
 tags: 
   - Python
 ---

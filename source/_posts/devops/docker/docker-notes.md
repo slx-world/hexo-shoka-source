@@ -3,7 +3,7 @@ title: Docker 笔记
 date: 2024/10/09
 description: Docker 笔记
 categories: 
-  - [Backend, DevOps]
+  - DevOps
 tags: 
   - Docker
 ---

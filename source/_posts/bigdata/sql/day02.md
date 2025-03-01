@@ -1,10 +1,10 @@
 ---
 title: 窗口函数
-description: MySQL 条件查询
+description: 窗口函数
 date: 2024/11/11
 update: 
 categories: 
-  - 大数据
+  - BigData
 tags: 
   - SQL
 ---

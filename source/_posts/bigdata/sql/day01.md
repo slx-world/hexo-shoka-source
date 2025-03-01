@@ -4,7 +4,7 @@ description: MySQL 条件查询
 date: 2024/11/11
 update: 
 categories: 
-  - 大数据
+  - BigData
 tags: 
   - SQL
 ---

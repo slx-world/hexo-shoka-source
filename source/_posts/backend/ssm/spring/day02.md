@@ -1,7 +1,7 @@
 ---
 title: Spring_day02
 date: 2024/10/12
-description: Spring 学习笔记
+description: Spring 笔记
 categories: 
   - [Backend, Framework]
 tags: 
