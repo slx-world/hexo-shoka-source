@@ -74,7 +74,7 @@ category_map:
   Test: test
   Framework: framework
   Database: database
-  Interview: interview
+  Front-End: front-end
   Project: project
   
 tag_map: 
@@ -237,9 +237,9 @@ feed:
         output: "feed.json"
 
 nofollow:
-  enable: true #是否启用
-  field: site #site全站，post仅文章
+  enable: true # 是否启用
+  field: site # site全站，post仅文章
   exclude:
-    - 'slx-world.top' #例外网站
+    - 'slx-world.top' # 例外网站
     - 'slx-world.github.io' 
 
