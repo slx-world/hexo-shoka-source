@@ -74,7 +74,7 @@ category_map:
   Test: test
   Framework: framework
   Database: database
-  Front-End: front-end
+  Frontend: frontend
   Project: project
   
 tag_map: 
