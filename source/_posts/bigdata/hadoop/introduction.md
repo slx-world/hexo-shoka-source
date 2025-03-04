@@ -1,8 +1,8 @@
 ---
 title: Hadoop 入门
-description: 
+description: Hadoop 入门
 date: 2024/10/28
-update: Hadoop 入门
+update: 
 categories: 
   - BigData
 tags: 
