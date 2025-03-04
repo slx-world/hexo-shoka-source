@@ -194,9 +194,8 @@ git merge 分支名
 
 :::
 
-`git branch -d b1` 删除分支时，需要做各种检查
-
-`git branch -D b2` 不做任何检查，强制删除
+- `git branch -d b1` 删除分支时，需要做各种检查
+- `git branch -D b2` 不做任何检查，强制删除
 
 ### :sweet_potato:解决冲突
 
