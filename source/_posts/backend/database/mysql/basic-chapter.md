@@ -266,7 +266,7 @@ UPDATE 表名 SET 字段名1 = 值1 , 字段名2 = 值2 , .... [ WHERE 条件 ] 
 DELETE FROM 表名 [ WHERE 条件 ] ;
 ```
 
-;;;info
+:::info
 
 注意事项:
 
