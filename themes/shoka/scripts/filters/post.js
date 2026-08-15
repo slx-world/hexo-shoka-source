@@ -2,23 +2,60 @@
 
 'use strict';
 
+const cheerio = require('cheerio');
+const { URL } = require('url');
+
+const externalProtocols = new Set(['http:', 'https:', 'mailto:', 'tel:']);
+const hasExplicitProtocol = href => /^(?:[a-z][a-z\d+.-]*:|\/\/)/i.test(href);
+
 hexo.extend.filter.register('after_post_render', data => {
   const { config } = hexo;
-  const theme = hexo.theme.config;
+  const siteHost = new URL(config.url).hostname;
+  const $ = cheerio.load(data.content, null, false);
 
-  data.content = data.content.replace(/(<img[^>]*) src=/img, '$1 data-src=');
-
-  const url = require('url');
-  const siteHost = url.parse(config.url).hostname || config.url;
-  data.content = data.content.replace(/<a[^>]* href="([^"]+)"[^>]*>([^<]*)<\/a>/img, (match, href, html) => {
-    // Exit if the href attribute doesn't exists.
-    if (!href) return match;
-
-    // Exit if the url has same host with `config.url`, which means it's an internal link.
-    let link = url.parse(href);
-    if (!link.protocol || link.hostname === siteHost) return match;
-
-    return `<span class="exturl" data-url="${Buffer.from(href).toString('base64')}">${html}</span>`;
+  $('img[src]').each((_, element) => {
+    const image = $(element);
+    image.attr('data-src', image.attr('src'));
+    image.removeAttr('src');
   });
 
+  $('a[href]').each((_, element) => {
+    const anchor = $(element);
+    const href = anchor.attr('href');
+
+    if (!href || !hasExplicitProtocol(href)) return;
+
+    let link;
+    try {
+      link = new URL(href, config.url);
+    } catch {
+      anchor.replaceWith(anchor.contents());
+      return;
+    }
+
+    if (!externalProtocols.has(link.protocol)) {
+      anchor.replaceWith(anchor.contents());
+      return;
+    }
+
+    if (link.hostname === siteHost) return;
+
+    const classes = ['exturl', ...(anchor.attr('class') || '').split(/\s+/)]
+      .filter(Boolean)
+      .filter((item, position, list) => list.indexOf(item) === position)
+      .join(' ');
+    const replacement = $('<span></span>')
+      .attr('class', classes)
+      .attr('data-url', Buffer.from(href).toString('base64'));
+
+    for (const attribute of ['title', 'aria-label']) {
+      if (anchor.attr(attribute)) replacement.attr(attribute, anchor.attr(attribute));
+    }
+
+    replacement.append(anchor.contents());
+    anchor.replaceWith(replacement);
+  });
+
+  data.content = $.html();
+  return data;
 }, 0);
