@@ -9,7 +9,7 @@ open_graph:
 
 # Assets
 # statics: / # //cdn.jsdelivr.net/gh/username/RepositoryName@latest/
-statics: //cdn.jsdelivr.net/gh/slx-world/slx-world.github.io@latest/
+statics: /
 
 css: css
 js: js

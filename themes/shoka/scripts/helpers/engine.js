@@ -135,7 +135,7 @@ hexo.extend.helper.register('_cover', function(item, num) {
 
 hexo.extend.helper.register('_md5', function(path) {
   let str = url_for.call(this, path);
-  str.replace('index.html', '');
+  str = str.replace(/index\.html$/, '');
   return crypto.createHash('md5').update(str).digest('hex');
 });
 

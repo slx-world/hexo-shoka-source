@@ -1,4 +1,4 @@
-var statics = CONFIG.statics.indexOf('//') > 0 ? CONFIG.statics : CONFIG.root
+const statics = /^(?:https?:)?\/\//.test(CONFIG.statics) ? CONFIG.statics : CONFIG.root;
 var scrollAction = { x: 'undefined', y: 'undefined' };
 var diffY = 0;
 var originTitle, titleTime;
