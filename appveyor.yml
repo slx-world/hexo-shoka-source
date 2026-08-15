@@ -1,19 +1,16 @@
 clone_depth: 5
 environment:
+  PUPPETEER_SKIP_DOWNLOAD: true
   access_token:
     secure: Nxpx5/uwnUNBMoaaPv31tMIeRWVfLRmOusWcocc6Fr4ZSDXo2qAHAtdrdO0uoq0OBHXKo6vxQoaoPDTDH3wqpxx0LmUi1gsgLd4lrjeOcqxXfExGD/CFNMqDPryp69x+
 install:
   - node --version
   - npm --version
-  - npm install
-  - npm install hexo-cli -g
-  - hexo --version
-  - npm un hexo-renderer-marked --save
-  - npm i hexo-renderer-markdown-it-plus hexo-renderer-multi-markdown-it markdown-it-prism hexo-autoprefixer hexo-algoliasearch hexo-symbols-count-time hexo-feed hexo-filter-nofollow --save
-  - npm list
+  - npm ci
+  - npx hexo --version
 build_script:
-  - hexo generate
-  - hexo algolia
+  - npm run clean
+  - npm run build
 artifacts:
   - path: public
 on_success:
