@@ -58,7 +58,7 @@ const sideBarTab = function () {
       element.removeClass('active');
     }
 
-    tab.addEventListener('click', function (element) {
+    tab.addEventListener('click', function (event) {
       var target = event.currentTarget;
       if (target.hasClass('active'))
         return;
