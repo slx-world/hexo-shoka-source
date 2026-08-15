@@ -45,7 +45,13 @@ hexo.extend.helper.register('_vendor_js', () => {
   if (!config) return '';
 
   //Get a font list from config
-  let vendorJs = ['pace', 'pjax', 'fetch', 'anime', 'algolia', 'instantsearch', 'lazyload', 'quicklink'].map(item => {
+  const vendorNames = ['pace', 'pjax', 'fetch', 'anime', 'lazyload', 'quicklink'];
+
+  if (hexo.config.algolia) {
+    vendorNames.push('algolia', 'instantsearch');
+  }
+
+  let vendorJs = vendorNames.map(item => {
     if (config[item]) {
       return config[item];
     }
@@ -55,8 +61,6 @@ hexo.extend.helper.register('_vendor_js', () => {
   vendorJs = vendorJs.filter(item => item !== '');
   vendorJs = [...new Set(vendorJs)];
   vendorJs = vendorJs.join(',');
-
-  let result = vendorJs ? `<script src="//cdn.jsdelivr.net/combine/${vendorJs}"></script>` : '';
 
   return vendorJs ? htmlTag('script', { src: `//cdn.jsdelivr.net/combine/${vendorJs}` }, '') : '';
 });
