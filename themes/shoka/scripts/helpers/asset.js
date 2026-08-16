@@ -35,34 +35,39 @@ hexo.extend.helper.register('_vendor_font', () => {
   fontFamilies = fontFamilies.join('|');
 
   // Merge extra parameters to the final processed font string
-  return fontFamilies ? htmlTag('link', { rel: 'stylesheet', href: `${fontHost}/css?family=${fontFamilies.concat(fontDisplay, fontSubset)}` }) : '';
+  if (!fontFamilies) return '';
+
+  const href = `${fontHost}/css?family=${fontFamilies.concat(fontDisplay, fontSubset)}`;
+  const stylesheet = htmlTag('link', {
+    rel: 'stylesheet',
+    href,
+    media: 'print',
+    onload: "this.media='all'"
+  });
+  const fallback = htmlTag('noscript', {}, htmlTag('link', { rel: 'stylesheet', href }));
+
+  return stylesheet + fallback;
 });
 
 
-hexo.extend.helper.register('_vendor_js', () => {
-  const config = hexo.theme.config.vendors.js;
+hexo.extend.helper.register('_vendor_js', function() {
+  const theme = hexo.theme.config;
+  const base = `${theme.statics}${theme.js}`;
+  const version = theme_env.version;
+  const core = htmlTag('script', {
+    src: url_for.call(this, `${base}/vendor-core.js?v=${version}`)
+  }, '');
 
-  if (!config) return '';
+  if (!hexo.config.algolia) return core;
 
-  //Get a font list from config
-  const vendorNames = ['pace', 'pjax', 'fetch', 'anime', 'lazyload', 'quicklink'];
+  const search = htmlTag('script', {
+    src: url_for.call(this, `${base}/vendor-search.js?v=${version}`),
+    async: true,
+    onload: "window.__ALGOLIA_SEARCH_READY__=true;window.dispatchEvent(new Event('algolia:ready'))",
+    onerror: "window.__ALGOLIA_SEARCH_FAILED__=true;window.dispatchEvent(new Event('algolia:error'))"
+  }, '');
 
-  if (hexo.config.algolia) {
-    vendorNames.push('algolia', 'instantsearch');
-  }
-
-  let vendorJs = vendorNames.map(item => {
-    if (config[item]) {
-      return config[item];
-    }
-    return '';
-  });
-
-  vendorJs = vendorJs.filter(item => item !== '');
-  vendorJs = [...new Set(vendorJs)];
-  vendorJs = vendorJs.join(',');
-
-  return vendorJs ? htmlTag('script', { src: `//cdn.jsdelivr.net/combine/${vendorJs}` }, '') : '';
+  return core + search;
 });
 
 hexo.extend.helper.register('_css', function(...urls) {

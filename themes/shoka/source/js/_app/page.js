@@ -434,6 +434,34 @@ const algoliaSearch = function(pjax) {
   if(CONFIG.search === null)
     return
 
+  const disableSearch = function() {
+    document.querySelectorAll('.search').forEach(function(element) {
+      element.style.display = 'none';
+    });
+  }
+
+  if (window.__ALGOLIA_SEARCH_FAILED__) {
+    disableSearch();
+    return;
+  }
+
+  if (typeof instantsearch !== 'function' || typeof algoliasearch !== 'function') {
+    if (!algoliaSearch.waiting) {
+      algoliaSearch.waiting = true;
+      window.addEventListener('algolia:ready', function() {
+        algoliaSearch.waiting = false;
+        algoliaSearch(pjax);
+      }, { once: true });
+      window.addEventListener('algolia:error', disableSearch, { once: true });
+    }
+    return;
+  }
+
+  if (algoliaSearch.initialized)
+    return;
+
+  algoliaSearch.initialized = true;
+
   if(!siteSearch) {
     siteSearch = BODY.createChild('div', {
       id: 'search',

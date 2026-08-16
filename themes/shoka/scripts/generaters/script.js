@@ -2,6 +2,16 @@
 const fs = require('hexo-fs');
 const url = require('url');
 
+const vendorPath = function(modulePath) {
+  return require.resolve(modulePath, { paths: [hexo.base_dir] });
+};
+
+const vendorBundle = function(modulePaths) {
+  return modulePaths.map(function(modulePath) {
+    return fs.readFileSync(vendorPath(modulePath)).toString();
+  }).join(';\n');
+};
+
 
 hexo.extend.generator.register('script', function(locals){
   const config = hexo.config;
@@ -67,10 +77,40 @@ hexo.extend.generator.register('script', function(locals){
 
   text = 'var CONFIG = ' + JSON.stringify(siteConfig) + ';' + text;
 
-  return {
+  const app = {
       path: theme.js + '/app.js',
       data: function(){
         return hexo.render.renderSync({text:  text, engine: 'js'});
       }
     };
+
+  const core = {
+    path: theme.js + '/vendor-core.js',
+    data: function() {
+      return vendorBundle([
+        'pace-js/pace.min.js',
+        'pjax/pjax.min.js',
+        'whatwg-fetch/dist/fetch.umd.js',
+        'animejs/lib/anime.min.js',
+        'lozad/dist/lozad.min.js',
+        'quicklink/dist/quicklink.umd.js'
+      ]);
+    }
+  };
+
+  const routes = [app, core];
+
+  if (config.algolia) {
+    routes.push({
+      path: theme.js + '/vendor-search.js',
+      data: function() {
+        return vendorBundle([
+          'algoliasearch/dist/algoliasearch-lite.umd.js',
+          'instantsearch.js/dist/instantsearch.production.min.js'
+        ]);
+      }
+    });
+  }
+
+  return routes;
 });
