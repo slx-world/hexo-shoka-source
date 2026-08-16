@@ -4,16 +4,16 @@ date: 2024-09-20 22:24:36
 description: 使用 GitHub + PicGo + Typora 搭建个人图床，极力推荐！！！
 sticky: true
 categories: 
-  - Tutorial
+  - 教程
 tags: 
-  - Blog
+  - 博客
 ---
 
 
 
 :::primary
 
- [++一、博客搭建++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka/) :airplane: [++二、图床搭建++{.info}](https://slx-world.top/tutorial/blog/github-picgo-typora/) :airplane: [++三、备份与持续集成++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-appveyor/)
+ [++一、博客搭建++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka/) :airplane: [++二、图床搭建++{.info}](https://slx-world.top/tutorial/blog/github-picgo-typora/) :airplane: [++三、备份与持续集成++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-appveyor/) :airplane: [++四、源码说明与维护指南++{.info}](https://slx-world.top/tutorial/blog/hexo-shoka-source-guide/)
 
 :::
 
