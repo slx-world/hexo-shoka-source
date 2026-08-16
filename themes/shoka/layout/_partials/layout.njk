@@ -28,6 +28,15 @@
       </div>
     </div>
   </div>
+  <script>
+    window.setTimeout(function() {
+      var loading = document.getElementById('loading');
+      if (loading) {
+        loading.style.display = 'none';
+        document.body.classList.add('loaded');
+      }
+    }, 8000);
+  </script>
   <div id="container">
     <header id="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="inner">

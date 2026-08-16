@@ -12,6 +12,8 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "algoliasearch": "4.20.0",
+    "animejs": "3.2.0",
     "cheerio": "1.0.0",
     "hexo": "^7.3.0",
     "hexo-algoliasearch": "^2.0.1",
@@ -31,7 +33,13 @@
     "hexo-symbols-count-time": "^0.7.1",
     "hexo-tag-embed": "^1.0.0",
     "hexo-theme-landscape": "^1.0.0",
+    "instantsearch.js": "4.56.9",
+    "lozad": "1.16.0",
     "markdown-it-prism": "^2.3.0",
-    "valine": "^1.5.2"
+    "pace-js": "1.0.2",
+    "pjax": "0.2.8",
+    "quicklink": "2.3.0",
+    "valine": "^1.5.2",
+    "whatwg-fetch": "3.4.0"
   }
 }
