@@ -228,3 +228,19 @@ nofollow:
     - 'slx-world.top' # 例外网站
     - 'slx-world.github.io' 
 
+# Algolia search. The public search-only key is safe for frontend use.
+# The restricted indexing key is stored only in AppVeyor as ALGOLIA_ADMIN_API_KEY.
+algolia:
+  appId: XYH3INJBU5
+  apiKey: 92b52eca2e1eb12dcf248aa629724a6b
+  chunkSize: 5000
+  indexName: slx-world
+  fields:
+    - title
+    - path
+    - categories
+    - content:strip:truncate,0,4000
+    - gallery
+    - photos
+    - tags
+
