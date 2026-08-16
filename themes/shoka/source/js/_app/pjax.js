@@ -86,6 +86,7 @@ const siteRefresh = function (reload) {
 
   registerExtURL()
   postBeauty()
+  pageViewCounter()
   tabFormat()
 
   toolPlayer.player.load(LOCAL.audio || CONFIG.audio || {})
