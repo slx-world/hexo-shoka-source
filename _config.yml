@@ -67,7 +67,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map: 
-  Tutorial: tutorial
+  教程: tutorial
   Backend: backend
   BigData: bigdata
   DevOps: devops
@@ -102,7 +102,7 @@ tag_map:
   Zookeeper: zk
   Spark: spark
   Flink: flink
-  Blog: blog
+  博客: blog
   Test-Basis: test-basis
   Data-Structure: data-structure
   Algorithm: algorithm
