@@ -39,7 +39,6 @@
     "pace-js": "1.0.2",
     "pjax": "0.2.8",
     "quicklink": "2.3.0",
-    "valine": "^1.5.2",
     "whatwg-fetch": "3.4.0"
   }
 }

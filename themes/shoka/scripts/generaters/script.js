@@ -31,13 +31,12 @@ hexo.extend.generator.register('script', function(locals){
     darkmode: theme.darkmode,
     auto_scroll: theme.auto_scroll,
     js: {
-      valine: theme.vendors.js.valine,
       chart: theme.vendors.js.chart,
       copy_tex: theme.vendors.js.copy_tex,
       fancybox: theme.vendors.js.fancybox
     },
     css: {
-      valine: theme.css + "/comment.css",
+      giscus: theme.vendors.css.comment,
       katex: theme.vendors.css.katex,
       mermaid: theme.css + "/mermaid.css",
       fancybox: theme.vendors.css.fancybox
@@ -45,7 +44,7 @@ hexo.extend.generator.register('script', function(locals){
     loader: theme.loader,
     search : null,
     viewCounter: theme.view_counter || { enable: false },
-    valine: theme.valine,
+    giscus: theme.giscus || { enable: false },
     quicklink: {
       timeout : theme.quicklink.timeout,
       priority: theme.quicklink.priority

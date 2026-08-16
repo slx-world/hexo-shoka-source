@@ -407,27 +407,68 @@ const tabFormat = function() {
 
 const loadComments = function () {
   var element = $('#comments');
-  if (!element) {
+  var config = CONFIG.giscus || {};
+
+  if (!element || !config.enable || !config.repo || !config.repo_id || !config.category_id) {
     goToComment.display("none")
     return;
   } else {
     goToComment.display("")
   }
 
-  if (!window.IntersectionObserver) {
-    vendorCss('valine');
-  } else {
-    var io = new IntersectionObserver(function(entries, observer) {
-      var entry = entries[0];
-      vendorCss('valine');
-      if (entry.isIntersecting || entry.intersectionRatio > 0) {
-        transition($('#comments'), 'bounceUpIn');
-        observer.disconnect();
-      }
-    });
+  var render = function() {
+    if (element.attr('data-giscus-loading'))
+      return;
 
-    io.observe(element);
+    element.attr('data-giscus-loading', 'true');
+    element.innerHTML = '';
+    vendorCss('giscus');
+
+    var script = document.createElement('script');
+    var attributes = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': config.repo,
+      'data-repo-id': config.repo_id,
+      'data-category': config.category,
+      'data-category-id': config.category_id,
+      'data-mapping': config.mapping || 'pathname',
+      'data-strict': String(config.strict == null ? 1 : config.strict),
+      'data-reactions-enabled': String(config.reactions_enabled == null ? 1 : config.reactions_enabled),
+      'data-emit-metadata': String(config.emit_metadata || 0),
+      'data-input-position': config.input_position || 'bottom',
+      'data-theme': giscusTheme(),
+      'data-lang': config.lang || 'zh-CN',
+      'data-loading': config.loading || 'lazy',
+      crossorigin: 'anonymous',
+      async: ''
+    };
+
+    Object.keys(attributes).forEach(function(name) {
+      script.setAttribute(name, attributes[name]);
+    });
+    script.onerror = function() {
+      element.removeAttribute('data-giscus-loading');
+      goToComment.display("none");
+      console.warn('Giscus comments failed to load.');
+    };
+    element.appendChild(script);
+    transition(element, 'bounceUpIn');
+  };
+
+  if (!window.IntersectionObserver) {
+    render();
+    return;
   }
+
+  var io = new IntersectionObserver(function(entries, observer) {
+    var entry = entries[0];
+    if (entry.isIntersecting || entry.intersectionRatio > 0) {
+      render();
+      observer.disconnect();
+    }
+  }, { rootMargin: '240px 0px' });
+
+  io.observe(element);
 }
 
 const pageViewCounter = function() {
