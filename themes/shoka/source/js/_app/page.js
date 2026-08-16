@@ -430,6 +430,74 @@ const loadComments = function () {
   }
 }
 
+const pageViewCounter = function() {
+  const container = document.querySelector('[data-page-view-counter]');
+
+  if (!container || !CONFIG.viewCounter || !CONFIG.viewCounter.enable)
+    return;
+
+  const value = container.querySelector('[data-page-view-count]');
+  const pageUrl = window.location.origin + window.location.pathname.replace(/index\.html$/, '');
+  const visitorKey = 'view-counter-visitor:' + window.location.host;
+  const requestId = (pageViewCounter.requestId || 0) + 1;
+  const timeout = Number(CONFIG.viewCounter.timeout) || 5000;
+  const controller = typeof AbortController === 'function' ? new AbortController() : null;
+  var isNewVisitor = false;
+
+  pageViewCounter.requestId = requestId;
+  container.hidden = true;
+  container.style.display = 'none';
+
+  try {
+    isNewVisitor = localStorage.getItem(visitorKey) !== '1';
+  } catch (error) {
+    isNewVisitor = false;
+  }
+
+  const timer = controller ? setTimeout(function() {
+    controller.abort();
+  }, timeout) : null;
+
+  fetch(CONFIG.viewCounter.endpoint, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      url: pageUrl,
+      isNewUv: isNewVisitor
+    }),
+    signal: controller ? controller.signal : undefined
+  }).then(function(response) {
+    if (!response.ok)
+      throw new Error('Page view counter returned HTTP ' + response.status);
+
+    return response.json();
+  }).then(function(result) {
+    const data = result && result.data ? result.data : result;
+    const count = Number(data && data.page_pv);
+
+    if (pageViewCounter.requestId !== requestId || !Number.isFinite(count))
+      return;
+
+    value.textContent = count.toLocaleString();
+    container.hidden = false;
+    container.style.display = '';
+
+    if (isNewVisitor) {
+      try {
+        localStorage.setItem(visitorKey, '1');
+      } catch (error) {}
+    }
+  }).catch(function(error) {
+    if (error.name !== 'AbortError')
+      console.warn('Page view counter unavailable:', error.message);
+  }).finally(function() {
+    if (timer)
+      clearTimeout(timer);
+  });
+}
+
 const algoliaSearch = function(pjax) {
   if(CONFIG.search === null)
     return

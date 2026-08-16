@@ -44,6 +44,7 @@ hexo.extend.generator.register('script', function(locals){
     },
     loader: theme.loader,
     search : null,
+    viewCounter: theme.view_counter || { enable: false },
     valine: theme.valine,
     quicklink: {
       timeout : theme.quicklink.timeout,

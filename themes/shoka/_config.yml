@@ -192,7 +192,7 @@ valine:
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
   lang: en
-  visitor: true # Article reading statistic
+  visitor: false # Reading statistics use view_counter below.
   NoRecordIP: false # Whether to record the commenter IP
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
@@ -214,6 +214,13 @@ valine:
       # - hash of friend2@email.com
     investor:
       # - hash of investor1@email.com
+
+# Page views are counted independently from LeanCloud. The request is
+# asynchronous and never blocks article rendering.
+view_counter:
+  enable: true
+  endpoint: https://events.vercount.one/api/v2/log
+  timeout: 5000
 
 # bgm
 audio:
