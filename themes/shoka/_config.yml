@@ -132,8 +132,8 @@ sidebar:
 widgets:
   # if true, will show random posts
   random_posts: true
-  # if true, will show recent comments
-  recent_comments: true
+  # Giscus does not expose a safe anonymous API for a recent-comments widget.
+  recent_comments: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -182,40 +182,25 @@ creative_commons:
   license: by-nc-sa
   language: deed.zh
 
-# Comments
-# Valine
-# For more information: https://github.com/amehime/MiniValine
-valine:
-  appId: kIMEc74pP2IYR6ecUgWPtIo5-gzGzoHsz
-  appKey: RBEGoucFuXm8iJNhwNpxfEzD
-  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
-  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
-  pageSize: 10 # Pagination size
-  lang: en
-  visitor: false # Reading statistics use view_counter below.
-  NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
-  powerMode: true
-  tagMeta:
-    visitor: 新朋友
-    master: 主人
-    friend: 小伙伴
-    investor: 金主粑粑
-  tagColor:
-    master: "var(--color-orange)"
-    friend: "var(--color-aqua)"
-    investor: "var(--color-pink)"
-  tagMember:
-    master:
-      # - hash of master@email.com
-      # - hash of master2@email.com
-    friend:
-      # - hash of friend@email.com
-      # - hash of friend2@email.com
-    investor:
-      # - hash of investor1@email.com
+# Comments powered by GitHub Discussions.
+# repo_id and category_id are filled after Discussions and the Giscus App are enabled.
+giscus:
+  enable: true
+  repo: slx-world/hexo-shoka-source
+  repo_id: R_kgDOM1cHqQ
+  category: Announcements
+  category_id: DIC_kwDOM1cHqc4DDfeU
+  mapping: pathname
+  strict: 1
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: bottom
+  theme_light: light
+  theme_dark: dark
+  lang: zh-CN
+  loading: lazy
 
-# Page views are counted independently from LeanCloud. The request is
+# Page views are counted independently from the comment service. The request is
 # asynchronous and never blocks article rendering.
 view_counter:
   enable: true
@@ -317,6 +302,5 @@ vendors:
     lazyload: npm/lozad@1/dist/lozad.min.js
     quicklink: npm/quicklink@2/dist/quicklink.umd.js
     fancybox: combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js
-    valine: gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js
     copy_tex: npm/katex@0.12.0/dist/contrib/copy-tex.min.js
     chart: npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js

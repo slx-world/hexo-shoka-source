@@ -61,6 +61,29 @@ const changeTheme = function(type) {
     btn.removeClass('i-moon');
     btn.addClass('i-sun');
   }
+  updateGiscusTheme();
+}
+
+const giscusTheme = function() {
+  if (!CONFIG.giscus)
+    return 'light';
+
+  return HTML.attr('data-theme') == 'dark' ? CONFIG.giscus.theme_dark : CONFIG.giscus.theme_light;
+}
+
+const updateGiscusTheme = function() {
+  var frame = document.querySelector('iframe.giscus-frame');
+
+  if (!frame || !frame.contentWindow || !CONFIG.giscus)
+    return;
+
+  frame.contentWindow.postMessage({
+    giscus: {
+      setConfig: {
+        theme: giscusTheme()
+      }
+    }
+  }, 'https://giscus.app');
 }
 
 const changeMetaTheme = function(color) {

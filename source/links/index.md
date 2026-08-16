@@ -22,11 +22,11 @@ date: 2024-09-21 22:55:13
   desc: 用于实现博客搜索功能
   image: 
   color: "#26b999"
-- site: LeanCloud
-  url: https://console.leancloud.cn/apps
-  desc: 用于实现博客评论功能
+- site: Giscus
+  url: https://giscus.app/zh-CN
+  desc: 使用 GitHub Discussions 实现博客评论
   image: 
-  color: "#3870b5"
+  color: "#24292f"
 - site: appveyor
   url: https://ci.appveyor.com/projects
   desc: 用于备份并持续集成博客

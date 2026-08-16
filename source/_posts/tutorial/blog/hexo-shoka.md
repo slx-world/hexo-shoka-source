@@ -8,8 +8,6 @@ categories:
   - Tutorial
 tags: 
   - Blog
-valine:
-  placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪"
 ---
 
 
@@ -296,74 +294,30 @@ deploy:
 
 ## :gift_heart:评论配置
 
-1. :point_right: [++获取 AppID 和 AppKey++{.info}](https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96AppID%E5%92%8CAppKey)
+1. 在 GitHub 仓库的 [Settings → General → Features]{.yellow} 中开启 Discussions。
 
-2. 加入有关配置：
+2. 安装 [++Giscus GitHub App++{.info}](https://github.com/apps/giscus)，并仅授权博客仓库。
 
-   ```yaml _config.yml 主题配置文件 mark:2,3
-   valine:
-     appId: #Your_appId
-     appKey: #Your_appkey
-     placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
-     avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
-     pageSize: 10 # Pagination size
-     lang: zh-CN
-     visitor: true # 文章访问量统计
-     NoRecordIP: false # 不记录 IP
-     serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
-     powerMode: true # 默认打开评论框输入特效
-     tagMeta:
-       visitor: 新朋友
-       master: 主人
-       friend: 小伙伴
-       investor: 金主粑粑
-     tagColor:
-       master: "var(--color-orange)"
-       friend: "var(--color-aqua)"
-       investor: "var(--color-pink)"
-     tagMember:
-       master:
-         # - hash of master@email.com
-         # - hash of master2@email.com
-       friend:
-         # - hash of friend@email.com
-         # - hash of friend2@email.com
-       investor:
-         # - hash of investor1@email.com
-   ```
-
-3. tag 标签显示在评论者名字的后面，默认是 [tagMeta.visitor]{.yellow} 对应的值。 在 [tagMeta]{.yellow} 和 [tagColor]{.yellow} 中，除了 [visitor]{.red} 这个 key 不能修改外，其他 key 都可以换一换，但需要保证一致性
+3. 在 [++Giscus 配置页++{.info}](https://giscus.app/zh-CN) 选择仓库、`Announcements` 分类和 `pathname` 映射，然后将生成的仓库 ID 与分类 ID 写入主题配置：
 
    ```yaml _config.yml 主题配置文件
-   tagMeta:
-       visitor: 游客
-       admin: 管理员
-       waifu: 我老婆
-     tagColor:
-       visitor: "#855194"
-       admin: "#a77c59"
-       waifu: "#ed6ea0"
-     tagMember:
-       admin:
-         # - hash of admin@email.com
-       waifu:
-         # - hash of waifu@email.com
+   giscus:
+     enable: true
+     repo: 用户名/仓库名
+     repo_id: 仓库ID
+     category: Announcements
+     category_id: 分类ID
+     mapping: pathname
+     strict: 1
+     reactions_enabled: 1
+     input_position: bottom
+     theme_light: light
+     theme_dark: dark
+     lang: zh-CN
+     loading: lazy
    ```
 
-4. 在文章 [Front Matter]{.yellow} 中也可以配置上述参数，当访问该文章页面时，将覆盖全局配置。 尤其可以用来配置一个特殊的 [placeholder]{.yellow}
-
-   ```yaml front matter
-   ---
-   valine:
-     placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪"
-   ---
-   ```
-
-5. 评论通知与管理工具建议使用 [++Valine-Admin++{.info}](https://github.com/DesertsP/Valine-Admin) 
-
-   注意 [SITE_URL]{.yellow} 需要以 [/]{.yellow} 结尾
-
-   ![image-20241003202648758](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/image-20241003202648758.png)
+评论数据保存在 GitHub Discussions 中，无需额外数据库；访客登录 GitHub 后即可评论，站长可直接在 Discussions 中管理内容。
 
 # :cherry_blossom:测试发布
 
