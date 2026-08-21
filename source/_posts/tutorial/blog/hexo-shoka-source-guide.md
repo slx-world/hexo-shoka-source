@@ -8,7 +8,7 @@ categories:
   - 教程
 tags:
   - 博客
-cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/shihao.jpg
+cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/102.jpg
 ---
 
 :::primary
