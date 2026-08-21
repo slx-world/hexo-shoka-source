@@ -67,6 +67,15 @@ hexo.extend.generator.register('index', function(locals) {
         catlist.push(cat)
       }
     });
+
+    const categoryOrder = config.index_generator.category_order || [];
+    const categoryRank = new Map(categoryOrder.map((slug, index) => [slug, index]));
+
+    catlist.sort((a, b) => {
+      const aRank = categoryRank.has(a.slug) ? categoryRank.get(a.slug) : categoryOrder.length;
+      const bRank = categoryRank.has(b.slug) ? categoryRank.get(b.slug) : categoryOrder.length;
+      return aRank - bRank;
+    });
   }
 
   if(posts.length > 0) {
