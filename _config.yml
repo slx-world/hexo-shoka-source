@@ -243,7 +243,8 @@ algolia:
     - title
     - path
     - categories
-    - content:strip:truncate,0,4000
+    # Keep UTF-8 records below Algolia Build's 10 KB per-record limit.
+    - content:strip:truncate,0,3000
     - gallery
     - photos
     - tags
