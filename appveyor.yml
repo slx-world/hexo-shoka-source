@@ -11,6 +11,7 @@ install:
 build_script:
   - npm run clean
   - npm run build
+  - npm run test:images
   - if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER npx hexo algolia
 artifacts:
   - path: public

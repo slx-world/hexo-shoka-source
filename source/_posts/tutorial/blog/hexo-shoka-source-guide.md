@@ -107,7 +107,7 @@ comment: true
 
 - `comment: false` 可以关闭单篇文章的评论。
 - `cover` 建议使用可公开访问的 HTTPS 图片地址。
-- 当前没有启用文章资源文件夹，文章图片建议使用稳定图床或放在 `source/` 目录统一管理。
+- 当前没有启用文章资源文件夹，所有图片上传至 `slx-world/blog-images`，使用 weserv + jsDelivr 地址；不再将图片文件放入博客源码。
 - “教程”和“博客”的公开路径仍分别使用 `tutorial` 与 `blog`，因此旧链接保持不变。
 
 # :gift_heart: 背景图和文章封面

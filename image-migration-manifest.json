@@ -1,0 +1,210 @@
+{
+  "imageRepository": "slx-world/blog-images",
+  "imageCommit": "59a3bf4acbcfa28e3df2aad081eb1eb2a6a1df52",
+  "images": [
+    {
+      "source": "source/_posts/ai-app/cover.jpg",
+      "destination": "blog-assets/_posts/ai-app/cover.jpg",
+      "gitBlobSha": "4ccf4dbdc6e000d3068c423dade0ae2360c79ac5",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/ai-app/cover.jpg"
+    },
+    {
+      "source": "source/_posts/backend/cover.jpg",
+      "destination": "blog-assets/_posts/backend/cover.jpg",
+      "gitBlobSha": "4fce7dd0f505f9dbca795fa98f887228088dee07",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/backend/cover.jpg"
+    },
+    {
+      "source": "source/_posts/bigdata/cover.jpg",
+      "destination": "blog-assets/_posts/bigdata/cover.jpg",
+      "gitBlobSha": "60a7d30a891b518ee11b7e46bf04e966fe4ea245",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/bigdata/cover.jpg"
+    },
+    {
+      "source": "source/_posts/devops/cover.jpg",
+      "destination": "blog-assets/_posts/devops/cover.jpg",
+      "gitBlobSha": "b67e3c9f85541f0c98dbafb451711469f289e762",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/devops/cover.jpg"
+    },
+    {
+      "source": "source/_posts/frontend/cover.jpg",
+      "destination": "blog-assets/_posts/frontend/cover.jpg",
+      "gitBlobSha": "eaf33eb20a32518fbeb2cd802df8b98ca95ffc4e",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/frontend/cover.jpg"
+    },
+    {
+      "source": "source/_posts/project/cover.jpg",
+      "destination": "blog-assets/_posts/project/cover.jpg",
+      "gitBlobSha": "c69697ecbe2e8e3ad2e19e29d3caab5911a05d9c",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/project/cover.jpg"
+    },
+    {
+      "source": "source/_posts/test/cover.jpg",
+      "destination": "blog-assets/_posts/test/cover.jpg",
+      "gitBlobSha": "d3e08dc82b8a7473710495c4d9fa07d4d5c29ade",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/test/cover.jpg"
+    },
+    {
+      "source": "source/_posts/tutorial/cover.jpg",
+      "destination": "blog-assets/_posts/tutorial/cover.jpg",
+      "gitBlobSha": "982bc533aa25fa8a4f04b00aa90f8f6a0cd9320d",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/tutorial/cover.jpg"
+    },
+    {
+      "source": "source/ai-app/hermes-agent-course/01-入门篇.md/images/hermes desktop模型切换.png",
+      "destination": "blog-assets/ai-app/hermes-agent-course/01-入门篇.md/images/hermes desktop模型切换.png",
+      "gitBlobSha": "ec7a223657100670eefc75a9b33fd3de90ec91c4",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/ai-app/hermes-agent-course/01-%E5%85%A5%E9%97%A8%E7%AF%87.md/images/hermes%20desktop%E6%A8%A1%E5%9E%8B%E5%88%87%E6%8D%A2.png"
+    },
+    {
+      "source": "source/ai-app/hermes-agent-course/01-入门篇.md/images/hermes desktop模型配置.png",
+      "destination": "blog-assets/ai-app/hermes-agent-course/01-入门篇.md/images/hermes desktop模型配置.png",
+      "gitBlobSha": "bbe28d1dbe4ed2cf8e843b950c0e21df151a42f1",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/ai-app/hermes-agent-course/01-%E5%85%A5%E9%97%A8%E7%AF%87.md/images/hermes%20desktop%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE.png"
+    },
+    {
+      "source": "source/ai-app/hermes-agent-course/04-协作篇.md/images/hermes_kanban_architecture.png",
+      "destination": "blog-assets/ai-app/hermes-agent-course/04-协作篇.md/images/hermes_kanban_architecture.png",
+      "gitBlobSha": "d78f4c7dd324d320c02844b6aa695a784552ec60",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/ai-app/hermes-agent-course/04-%E5%8D%8F%E4%BD%9C%E7%AF%87.md/images/hermes_kanban_architecture.png"
+    },
+    {
+      "source": "source/images/sop-flowcharts/emag-daily-report.png",
+      "destination": "blog-assets/images/sop-flowcharts/emag-daily-report.png",
+      "gitBlobSha": "367ee57556b3d40f8ec1954a04d9f50a0b4ffc06",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/images/sop-flowcharts/emag-daily-report.png"
+    },
+    {
+      "source": "themes/shoka/example/source/_posts/computer-science/java/course-1/cover.jpg",
+      "destination": "blog-assets/theme-shoka/example/source/_posts/computer-science/java/course-1/cover.jpg",
+      "gitBlobSha": "4331755fb022e40f123742922d19a186fc134a63",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/_posts/computer-science/java/course-1/cover.jpg"
+    },
+    {
+      "source": "themes/shoka/example/source/_posts/computer-science/note/cover.jpg",
+      "destination": "blog-assets/theme-shoka/example/source/_posts/computer-science/note/cover.jpg",
+      "gitBlobSha": "ad0efb6992ec8b9bc163a9638657250e1ad565a7",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/_posts/computer-science/note/cover.jpg"
+    },
+    {
+      "source": "themes/shoka/example/source/assets/wallpaper-2311325.jpg",
+      "destination": "blog-assets/theme-shoka/example/source/assets/wallpaper-2311325.jpg",
+      "gitBlobSha": "0bde2caca10a9602f6df9e2b336e1d0029dee095",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-2311325.jpg"
+    },
+    {
+      "source": "themes/shoka/example/source/assets/wallpaper-2572384.jpg",
+      "destination": "blog-assets/theme-shoka/example/source/assets/wallpaper-2572384.jpg",
+      "gitBlobSha": "9681c270ea4087dd2b63221312ce6e9e4da36f72",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-2572384.jpg"
+    },
+    {
+      "source": "themes/shoka/example/source/assets/wallpaper-878514.jpg",
+      "destination": "blog-assets/theme-shoka/example/source/assets/wallpaper-878514.jpg",
+      "gitBlobSha": "38b190e2373cd3e067de6762c3de0ee5922ed5cc",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-878514.jpg"
+    },
+    {
+      "source": "themes/shoka/screenshot.png",
+      "destination": "blog-assets/theme-shoka/screenshot.png",
+      "gitBlobSha": "5a07c83ee2da55e7632f0c1e6c9d98811ef178c8",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/screenshot.png"
+    },
+    {
+      "source": "themes/shoka/source/images/404.png",
+      "destination": "blog-assets/theme-shoka/source/images/404.png",
+      "gitBlobSha": "b9bbfedff235c3cf528a02fe5ef1f0864c856fb6",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/404.png"
+    },
+    {
+      "source": "themes/shoka/source/images/algolia_logo.svg",
+      "destination": "blog-assets/theme-shoka/source/images/algolia_logo.svg",
+      "gitBlobSha": "470242341d65c3217ba5989f87ca8161cd048c6a",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/algolia_logo.svg"
+    },
+    {
+      "source": "themes/shoka/source/images/alipay.png",
+      "destination": "blog-assets/theme-shoka/source/images/alipay.png",
+      "gitBlobSha": "618dfec40cebed117295d620a81361ad902f39b7",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/alipay.png"
+    },
+    {
+      "source": "themes/shoka/source/images/apple-touch-icon.png",
+      "destination": "blog-assets/theme-shoka/source/images/apple-touch-icon.png",
+      "gitBlobSha": "6a3a6054e81bbcd069ff1e1c180200bcb6e53829",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/apple-touch-icon.png"
+    },
+    {
+      "source": "themes/shoka/source/images/avatar.jpg",
+      "destination": "blog-assets/theme-shoka/source/images/avatar.jpg",
+      "gitBlobSha": "08633a01ba196dbc00abdeb4ed9d03b9f7a0749f",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/avatar.jpg"
+    },
+    {
+      "source": "themes/shoka/source/images/failure.ico",
+      "destination": "blog-assets/theme-shoka/source/images/failure.ico",
+      "gitBlobSha": "254bb1e919066906e76550384fa35b8c54c91194",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/failure.ico"
+    },
+    {
+      "source": "themes/shoka/source/images/favicon.ico",
+      "destination": "blog-assets/theme-shoka/source/images/favicon.ico",
+      "gitBlobSha": "770feed84c791dbed6f20eae91a8678bf531c49c",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/favicon.ico"
+    },
+    {
+      "source": "themes/shoka/source/images/logo.svg",
+      "destination": "blog-assets/theme-shoka/source/images/logo.svg",
+      "gitBlobSha": "9c1a33b51c0ace1770fec3cc22a7965fed597470",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/logo.svg"
+    },
+    {
+      "source": "themes/shoka/source/images/paypal.png",
+      "destination": "blog-assets/theme-shoka/source/images/paypal.png",
+      "gitBlobSha": "508503a73b085d9b8561f73072a0bed5704bbe5d",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/paypal.png"
+    },
+    {
+      "source": "themes/shoka/source/images/play_disc.png",
+      "destination": "blog-assets/theme-shoka/source/images/play_disc.png",
+      "gitBlobSha": "178be2dfc950cbb55b565174c14e2ab6d7235c4f",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/play_disc.png"
+    },
+    {
+      "source": "themes/shoka/source/images/play_needle.png",
+      "destination": "blog-assets/theme-shoka/source/images/play_needle.png",
+      "gitBlobSha": "96b248b2d871a8382aa9f7f19e4dc9f6ce650fec",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/play_needle.png"
+    },
+    {
+      "source": "themes/shoka/source/images/search.png",
+      "destination": "blog-assets/theme-shoka/source/images/search.png",
+      "gitBlobSha": "9fd6ecac65ba857d6d4d1bc22c7eb9b172b775a4",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/search.png"
+    },
+    {
+      "source": "themes/shoka/source/images/wechatpay.png",
+      "destination": "blog-assets/theme-shoka/source/images/wechatpay.png",
+      "gitBlobSha": "948f16354442cd5a2b50a69824b61a131c4c7a6a",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/wechatpay.png"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg",
+      "destination": "blog-assets/friends/amehime-avatar.jpg",
+      "gitBlobSha": "f11ab665bcd065eee4a26d3aadf37c860c42340f",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/friends/amehime-avatar.jpg"
+    },
+    {
+      "source": "https://hexo.io/logo.svg",
+      "destination": "blog-assets/links/hexo-logo.svg",
+      "gitBlobSha": "1e23466e0849826711986a470aa29aa3fd7ab033",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/links/hexo-logo.svg"
+    },
+    {
+      "source": "inline-divider.png",
+      "destination": "blog-assets/theme-shoka/source/images/divider.png",
+      "gitBlobSha": "eb985f7c0bb6d0dd7a4af23a89afb18d0dd2becb",
+      "url": "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/divider.png"
+    }
+  ]
+}

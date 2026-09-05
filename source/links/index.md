@@ -10,7 +10,7 @@ date: 2024-09-21 22:55:13
 - site: Hexo
   url: https://hexo.io/zh-cn/
   desc: 快速、简洁且高效的博客框架
-  image: https://hexo.io/logo.svg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/links/hexo-logo.svg
   color: "#e9546b"
 - site: 图床
   url: https://sm.ms/

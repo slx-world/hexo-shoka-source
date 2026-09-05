@@ -56,13 +56,13 @@ valine:
   owner: 霜月琉璃
   url: https://shoka.lostyu.me
   desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/friends/amehime-avatar.jpg
   color: "#e9546b"
 
 - site: 優萌初華
   owner: 霜月琉璃
   url: https://shoka.lostyu.me
-  image: images/avatar.jpg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/avatar.jpg
 
 - site: 優萌初華
   url: https://shoka.lostyu.me
@@ -76,13 +76,13 @@ valine:
   owner: 霜月琉璃
   url: https://shoka.lostyu.me
   desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/friends/amehime-avatar.jpg
   color: "#e9546b"
 
 - site: 優萌初華
   owner: 霜月琉璃
   url: https://shoka.lostyu.me
-  image: images/avatar.jpg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/avatar.jpg
 
 - site: 優萌初華
   url: https://shoka.lostyu.me
@@ -456,7 +456,7 @@ H~2~0
   owner: 霜月琉璃
   url: https://shoka.lostyu.me
   desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/friends/amehime-avatar.jpg
   color: "#e9546b"
 &#123;% endlinks %&#125;
 ;;;
@@ -488,7 +488,7 @@ H~2~0
   owner: 霜月琉璃
   url: https://shoka.lostyu.me
   desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+  image: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/friends/amehime-avatar.jpg
   color: "#e9546b"
 {% endlinks %}
 ;;;

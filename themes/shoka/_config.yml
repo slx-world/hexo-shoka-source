@@ -14,6 +14,7 @@ statics: /
 css: css
 js: js
 images: images
+image_base: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/source/images/
 
 # themes/shoka/source/images/***
 favicon:

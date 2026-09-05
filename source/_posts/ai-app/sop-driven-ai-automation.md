@@ -11,7 +11,7 @@ tags:
   - AI-Skill
   - 浏览器自动化
 description: 以紫鸟浏览器、Temu 对账和 Excel 汇总为例，讲解如何把人工 SOP 转化为可验证、可回滚、可批量运行的 AI 自动化系统，并将稳定经验沉淀为 Skill。
-cover: ai-app/cover.jpg
+cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/ai-app/cover.jpg
 comment: true
 ---
 

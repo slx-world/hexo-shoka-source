@@ -55,7 +55,7 @@ function linkGrid(args, content) {
       urlparam = url.parse(item.url);
     }
 
-    var item_image = item.image || theme.images + '/404.png';
+    var item_image = item.image || theme.image_base + '404.png';
 
     if (!item_image.startsWith('//') && !item_image.startsWith('http')) {
       item_image = theme.statics + item_image;

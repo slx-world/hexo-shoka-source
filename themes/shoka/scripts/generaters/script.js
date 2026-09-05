@@ -25,8 +25,8 @@ hexo.extend.generator.register('script', function(locals){
     root: config.root,
     statics: theme.statics,
     favicon: {
-      normal: theme.images + "/favicon.ico",
-      hidden: theme.images + "/failure.ico"
+      normal: theme.image_base + "favicon.ico&output=png",
+      hidden: theme.image_base + "failure.ico&output=png"
     },
     darkmode: theme.darkmode,
     auto_scroll: theme.auto_scroll,

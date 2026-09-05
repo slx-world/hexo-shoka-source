@@ -79,26 +79,26 @@ sticky: true
 - 如果文章的Front Matter设置了`cover: image path`，则封面会显示这张图片。
   ```yml 举个栗子
   title: Images
-  cover: assets/wallpaper-2572384.jpg
+  cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-2572384.jpg
   # 或者写成
   cover: http://placehold.it/350x150.jpg
   ---
   ```
-  这里`cover`的值可以是位于`source`目录里的图片文件，此处是`<root>/source/assets/wallpaper-2572384.jpg`文件，也可以是一个某网址。
+  本博客使用图床中的 HTTPS 图片地址作为 `cover`，示例图片已经迁移至 `slx-world/blog-images`。
 
 - 如果文章是一个`gallery post`，即Front Matter设置了`photos`，则会封面会显示设置的第一张图片。
   ```yml 举个栗子
   title: Gallery Post
   photos:
-  - assets/wallpaper-2572384.jpg
-  - assets/wallpaper-2311325.jpg
-  - assets/wallpaper-878514.jpg
+  - https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-2572384.jpg
+  - https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-2311325.jpg
+  - https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/theme-shoka/example/source/assets/wallpaper-878514.jpg
   - http://placehold.it/350x150.jpg
   ---
   ```
-  此时默认会显示第一个图片，即位于`<root>/source/assets/`目录里的`wallpaper-2572384.jpg`。
+  此时默认会显示 `photos` 中第一个远程图片。
 
-- 如果站点配置中设置了`post_asset_folder: true`，那么上述本地图片路径应为`<root>/source/_posts/文章同名的文件夹/assets/wallpaper-2572384.jpg`，当然此时`assets`目录可以省掉。
+- 本博客不使用本地文章图片目录；远程图片地址不受 `post_asset_folder` 设置影响。分类封面请以根配置 `category_covers` 为准，本文前面的本地 `cover.jpg` 说明仅作为上游主题的历史参考。
 
 - 如果以上设置均不存在，将显示一张随机图片，[随机图库配置戳此](../config/#随机图库)。
 
