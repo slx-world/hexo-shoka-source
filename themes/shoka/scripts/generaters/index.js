@@ -1,6 +1,5 @@
 'use strict';
 
-const fs = require('hexo-fs');
 const pagination = require('hexo-pagination');
 
 hexo.config.index_generator = Object.assign({
@@ -9,7 +8,6 @@ hexo.config.index_generator = Object.assign({
 }, hexo.config.index_generator);
 
 hexo.extend.generator.register('index', function(locals) {
-  let covers = [];
   let catlist = [];
   let pages = [];
   const config = hexo.config;
@@ -31,15 +29,10 @@ hexo.extend.generator.register('index', function(locals) {
 
   if (categories && categories.length) {
     categories.forEach((cat) => {
-      let cover = 'source/_posts/' + cat.slug + '/cover.jpg'
+      const cover = (config.category_covers || {})[cat.slug];
 
-      if (fs.existsSync(cover)) {
-        covers.push({
-          path: cat.slug + '/cover.jpg',
-          data: function () {
-            return fs.createReadStream(cover)
-          }
-        });
+      if (cover) {
+        cat.cover = cover;
 
         let topcat = getTopcat(cat)
 
@@ -101,6 +94,6 @@ hexo.extend.generator.register('index', function(locals) {
       }];
   }
 
-  return [...covers, ...pages];
+  return pages;
 
 });

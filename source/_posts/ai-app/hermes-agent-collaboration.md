@@ -336,7 +336,7 @@ Kanban 的目标就是补上这些能力，提供：跨运行持久状态、工�
 
 三层架构：
 
-![hermes kanban architecture](images/hermes_kanban_architecture.png)
+![hermes kanban architecture](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/ai-app/hermes-agent-course/04-%E5%8D%8F%E4%BD%9C%E7%AF%87.md/images/hermes_kanban_architecture.png)
 
 - **Control Plane（控制层）**：CLI、Gateway、Dashboard — 用户交互入口
 - **State Plane（状态层）**：SQLite board + dispatcher — 唯一事实来源，决定哪些任务可运行

@@ -11,7 +11,7 @@ tags:
   - 财务自动化
   - Excel
 description: 以受控浏览器会话和亚马逊 Payments Dashboard 为例，讲解如何安全地批量采集店铺未结算余额，并生成可审计、可回滚的 Excel 汇总报表。
-cover: ai-app/cover.jpg
+cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/ai-app/cover.jpg
 comment: true
 ---
 

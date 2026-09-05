@@ -7,7 +7,7 @@ tags:
   - AI
   - 应用
 description: 汇集 AI 工具、智能体、自动化工作流与实际应用案例。
-cover: ai-app/cover.jpg
+cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/ai-app/cover.jpg
 ---
 
 :::primary

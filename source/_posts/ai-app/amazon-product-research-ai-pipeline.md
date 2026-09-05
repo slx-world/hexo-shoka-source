@@ -11,7 +11,7 @@ tags:
   - Dify
   - 数据分析
 description: 解析一套面向亚马逊美国站的 AI 选品流水线，涵盖 MCP 数据检索、多阶段筛选、浏览器采集、断点续跑、风险控制与 Excel 报表生成。
-cover: ai-app/cover.jpg
+cover: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/ai-app/cover.jpg
 comment: true
 ---
 

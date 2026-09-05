@@ -247,9 +247,9 @@ Hermes Desktop 是 v0.16 推出的原生桌面应用（基于 Electron），macO
 
 **与 CLI/TUI 的关系**：Hermes Desktop 底层仍然调用同一个 `hermes` 引擎，所有配置、会话、技能、记忆与 CLI/TUI 模式完全共享。你可以白天在 Desktop 上聊天，晚上在终端里跑自动化 Cron 任务——使用的是同一套数据。
 
-![Hermes Desktop 模型配置](images/hermes%20desktop模型配置.png)
+![Hermes Desktop 模型配置](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/ai-app/hermes-agent-course/01-%E5%85%A5%E9%97%A8%E7%AF%87.md/images/hermes%20desktop%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE.png)
 
-![Hermes Desktop 模型切换](images/hermes%20desktop模型切换.png)
+![Hermes Desktop 模型切换](https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/ai-app/hermes-agent-course/01-%E5%85%A5%E9%97%A8%E7%AF%87.md/images/hermes%20desktop%E6%A8%A1%E5%9E%8B%E5%88%87%E6%8D%A2.png)
 
 #### 交互式对话（终端）
 

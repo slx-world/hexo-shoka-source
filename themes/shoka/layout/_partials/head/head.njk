@@ -3,13 +3,13 @@
 <meta name="theme-color" content="#FFF">
 
 {%- if theme.favicon.apple_touch_icon %}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.statics +  theme.images + theme.favicon.apple_touch_icon) }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ _theme_image(theme.favicon.apple_touch_icon) }}">
 {%- endif %}
 
-<link rel="icon" type="image/ico" sizes="32x32" href="{{ url_for(theme.statics +  theme.images + '/favicon.ico') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ _theme_image('favicon.ico') }}&output=png">
 
 {%- if theme.favicon.safari_pinned_tab %}
-  <link rel="mask-icon" href="{{ url_for(theme.statics + theme.images + theme.favicon.safari_pinned_tab) }}" color="{{ theme.android_chrome_color }}">
+  <link rel="mask-icon" href="{{ _theme_image(theme.favicon.safari_pinned_tab) }}" color="{{ theme.android_chrome_color }}">
 {%- endif %}
 {%- if theme.favicon.android_manifest %}
   <link rel="manifest" href="{{ url_for(theme.statics + theme.images + theme.favicon.android_manifest) }}">

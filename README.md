@@ -105,9 +105,25 @@ comment: true
 - `cover` 可使用可公开访问的 HTTPS 图片地址。
 - `comment: false` 可关闭单篇文章的评论。
 - 分类和标签映射维护在根目录 `_config.yml`。
-- 当前 `post_asset_folder` 为 `false`，文章图片建议使用稳定的 HTTPS 图床地址或放入 `source/` 下统一管理。
+- 当前 `post_asset_folder` 为 `false`，所有图片上传至 `slx-world/blog-images`，使用 weserv + jsDelivr 地址；不再将图片文件放入博客源码。
 
 ## 背景图和文章封面
+
+### 图片存储约定
+
+图片统一上传到 `slx-world/blog-images`，不提交图片文件到本仓库。Typora 继续通过 PicGo 上传，正文及 `cover` 使用以下格式：
+
+```text
+https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/目录/图片.png
+```
+
+新上传路径使用 `/`，例如 `test/python/`，不要使用 Windows 的 `\`。历史 `%5C` 链接若仍指向图床中的真实文件名，保留它们；不能仅替换分隔符而不迁移文件。
+
+分类显示图在根配置 `_config.yml` 的 `category_covers` 中按分类 slug 设置远程 URL；无需再放置本地 `cover.jpg`。主题头像、赞赏码和图标通过 `themes/shoka/_config.yml` 的 `image_base` 读取，CSS/JS 仍由博客自身提供。
+
+迁移文件与图床路径、原文件 Git Blob SHA 的对应关系见 `image-migration-manifest.json`。这是路径清单，不包含图片或密钥。删除的图片可从图床或原 Git 历史恢复；此次迁移不重写历史。
+
+发布前运行 `npm run build` 和 `npm run test:images`，检查源码未重新包含图片文件，且生成页面的图片引用符合图床约定。CI 同样执行此检查。
 
 顶部随机背景图列表位于 `themes/shoka/_images.yml`。列表中的相对文件名会通过以下链路读取：
 

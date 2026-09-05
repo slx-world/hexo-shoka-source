@@ -250,3 +250,14 @@ algolia:
     - photos
     - tags
 
+
+# Category cards use remote image-host URLs, not local cover.jpg files.
+category_covers:
+  ai-app: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/ai-app/cover.jpg
+  backend: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/backend/cover.jpg
+  bigdata: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/bigdata/cover.jpg
+  devops: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/devops/cover.jpg
+  frontend: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/frontend/cover.jpg
+  project: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/project/cover.jpg
+  test: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/test/cover.jpg
+  tutorial: https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/slx-world/blog-images@master/blog-assets/_posts/tutorial/cover.jpg

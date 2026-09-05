@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "test:images": "node tools/check-image-hosting.cjs",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
