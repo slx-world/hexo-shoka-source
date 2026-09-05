@@ -70,6 +70,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map: 
+  SOP 流程图: sop-flowcharts
   AI 应用: ai-app
   教程: tutorial
   Backend: backend
